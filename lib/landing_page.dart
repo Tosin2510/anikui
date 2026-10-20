@@ -41,7 +41,7 @@ class _LandingPageState extends State<LandingPage> {
     });
   });
 
-  Future.delayed(Duration(milliseconds: 3500), () {
+  Future.delayed(Duration(milliseconds: 5000), () {
     if (hasUserLeftLandingPage) return;
     if (!mounted) return;
     hasUserLeftLandingPage = true;
@@ -58,7 +58,7 @@ class _LandingPageState extends State<LandingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xFFF8DDE2),
       body: GestureDetector(
         behavior: HitTestBehavior.opaque,
         onTap: () {
@@ -80,6 +80,7 @@ class _LandingPageState extends State<LandingPage> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 28.0),
                 child: Stack(
+                  clipBehavior: Clip.none,
                    children: [
                     AnimatedOpacity(
                       opacity: appNameOpacity,
@@ -99,7 +100,7 @@ class _LandingPageState extends State<LandingPage> {
                     ),
                     Positioned(
                       right: 0,
-                      bottom: -30,
+                      bottom: -40,
                       child: AnimatedOpacity(
                         opacity: redStampInLandingPageOpacity,
                         duration: Duration(milliseconds: 300),
@@ -135,7 +136,7 @@ class _LandingPageState extends State<LandingPage> {
               )
             ),
 
-            SizedBox(height: 52,),
+            SizedBox(height: 64,),
 
             AnimatedOpacity(
               opacity: additionalOpacity, 
