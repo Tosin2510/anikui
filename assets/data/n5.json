@@ -1,0 +1,5178 @@
+[
+ {
+  "id": "w0000",
+  "japanese": "あさって",
+  "romaji": "asatte",
+  "english": "day after tomorrow",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0001",
+  "japanese": "あそこ",
+  "romaji": "asoko",
+  "english": "over there",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0002",
+  "japanese": "あちら",
+  "romaji": "achira",
+  "english": "there",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0003",
+  "japanese": "あっち",
+  "romaji": "atchi",
+  "english": "over there",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0004",
+  "japanese": "あなた",
+  "romaji": "anata",
+  "english": "you",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0005",
+  "japanese": "あの",
+  "romaji": "ano",
+  "english": "that over there",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0006",
+  "japanese": "アパート",
+  "romaji": "apaato",
+  "english": "apartment",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0007",
+  "japanese": "あびる",
+  "romaji": "abiru",
+  "english": "to bathe",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0008",
+  "japanese": "あまり",
+  "romaji": "amari",
+  "english": "not very",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0009",
+  "japanese": "ある",
+  "romaji": "aru",
+  "english": "to be",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0010",
+  "japanese": "あれ",
+  "romaji": "are",
+  "english": "that",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0011",
+  "japanese": "いい/よい",
+  "romaji": "ii/yoi",
+  "english": "good",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0012",
+  "japanese": "いいえ",
+  "romaji": "iie",
+  "english": "no",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0013",
+  "japanese": "いかが",
+  "romaji": "ikaga",
+  "english": "how",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0014",
+  "japanese": "いくつ",
+  "romaji": "ikutsu",
+  "english": "how many?",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0015",
+  "japanese": "いくら",
+  "romaji": "ikura",
+  "english": "how much?",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0016",
+  "japanese": "いす",
+  "romaji": "isu",
+  "english": "chair",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0017",
+  "japanese": "いちばん",
+  "romaji": "ichiban",
+  "english": "best",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0018",
+  "japanese": "いつ",
+  "romaji": "itsu",
+  "english": "when",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0019",
+  "japanese": "いつも",
+  "romaji": "itsumo",
+  "english": "always",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0020",
+  "japanese": "いろいろ",
+  "romaji": "iroiro",
+  "english": "various",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0021",
+  "japanese": "ええ",
+  "romaji": "ee",
+  "english": "yes",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0022",
+  "japanese": "エレベーター",
+  "romaji": "erebeetaa",
+  "english": "elevator",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0023",
+  "japanese": "おいしい",
+  "romaji": "oishii",
+  "english": "delicious",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0024",
+  "japanese": "おなか",
+  "romaji": "onaka",
+  "english": "stomach",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0025",
+  "japanese": "おばあさん",
+  "romaji": "obaasan",
+  "english": "grandmother",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0026",
+  "japanese": "おもしろい",
+  "romaji": "omoshiroi",
+  "english": "interesting",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0027",
+  "japanese": "おかし",
+  "romaji": "okashi",
+  "english": "sweets",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0028",
+  "japanese": "おかね",
+  "romaji": "okane",
+  "english": "money",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0029",
+  "japanese": "おにいさん",
+  "romaji": "oniisan",
+  "english": "older brother",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0030",
+  "japanese": "おさら",
+  "romaji": "osara",
+  "english": "plate",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0031",
+  "japanese": "おねえさん",
+  "romaji": "oneesan",
+  "english": "older sister",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0032",
+  "japanese": "おてあらい",
+  "romaji": "otearai",
+  "english": "bathroom",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0033",
+  "japanese": "おさけ",
+  "romaji": "osake",
+  "english": "alcohol",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0034",
+  "japanese": "おちゃ",
+  "romaji": "ocha",
+  "english": "green tea",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0035",
+  "japanese": "おとうさん",
+  "romaji": "otousan",
+  "english": "father",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0036",
+  "japanese": "おふろ",
+  "romaji": "ofuro",
+  "english": "bath",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0037",
+  "japanese": "おべんとう",
+  "romaji": "obentou",
+  "english": "boxed lunch",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0038",
+  "japanese": "おかあさん",
+  "romaji": "okaasan",
+  "english": "mother",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0039",
+  "japanese": "かかる",
+  "romaji": "kakaru",
+  "english": "to take time or money",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0040",
+  "japanese": "かぎ",
+  "romaji": "kagi",
+  "english": "key",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0041",
+  "japanese": "かける",
+  "romaji": "kakeru",
+  "english": "to call by phone",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0042",
+  "japanese": "カップ",
+  "romaji": "kappu",
+  "english": "cup",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0043",
+  "japanese": "かばん",
+  "romaji": "kaban",
+  "english": "bag",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0044",
+  "japanese": "カメラ",
+  "romaji": "kamera",
+  "english": "camera",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0045",
+  "japanese": "カレー",
+  "romaji": "karee",
+  "english": "curry",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0046",
+  "japanese": "カレンダー",
+  "romaji": "karendaa",
+  "english": "calendar",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0047",
+  "japanese": "かわいい",
+  "romaji": "kawaii",
+  "english": "cute",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0048",
+  "japanese": "ギター",
+  "romaji": "gitaa",
+  "english": "guitar",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0049",
+  "japanese": "きれい",
+  "romaji": "kirei",
+  "english": "pretty",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0050",
+  "japanese": "キロ/キログラム",
+  "romaji": "kiro/kiroguramu",
+  "english": "kilogram",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0051",
+  "japanese": "キロ/キロメートル",
+  "romaji": "kiro/kiromeetoru",
+  "english": "kilometre",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0052",
+  "japanese": "ください",
+  "romaji": "kudasai",
+  "english": "please",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0053",
+  "japanese": "クラス",
+  "romaji": "kurasu",
+  "english": "class",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0054",
+  "japanese": "グラム",
+  "romaji": "guramu",
+  "english": "gram",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0055",
+  "japanese": "コート",
+  "romaji": "kooto",
+  "english": "coat",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0056",
+  "japanese": "コーヒー",
+  "romaji": "koohii",
+  "english": "coffee",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0057",
+  "japanese": "ここ",
+  "romaji": "koko",
+  "english": "here",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0058",
+  "japanese": "こちら",
+  "romaji": "kochira",
+  "english": "this person or way",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0059",
+  "japanese": "こっち",
+  "romaji": "kotchi",
+  "english": "this person or way",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0060",
+  "japanese": "コップ",
+  "romaji": "koppu",
+  "english": "a glass",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0061",
+  "japanese": "この",
+  "romaji": "kono",
+  "english": "this",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0062",
+  "japanese": "コピーする",
+  "romaji": "kopiisuru",
+  "english": "to copy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0063",
+  "japanese": "これ",
+  "romaji": "kore",
+  "english": "this",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0064",
+  "japanese": "こんな",
+  "romaji": "konna",
+  "english": "such",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0065",
+  "japanese": "さあ",
+  "romaji": "saa",
+  "english": "well…",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0066",
+  "japanese": "さらいねん",
+  "romaji": "sarainen",
+  "english": "year after next",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0067",
+  "japanese": "しかし",
+  "romaji": "shikashi",
+  "english": "however",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0068",
+  "japanese": "じゃ/じゃあ",
+  "romaji": "ja/jaa",
+  "english": "well then…",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0069",
+  "japanese": "シャツ",
+  "romaji": "shatsu",
+  "english": "shirt",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0070",
+  "japanese": "シャワー",
+  "romaji": "shawaa",
+  "english": "shower",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0071",
+  "japanese": "しょうゆ",
+  "romaji": "shouyu",
+  "english": "soy sauce",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0072",
+  "japanese": "スカート",
+  "romaji": "sukaato",
+  "english": "skirt",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0073",
+  "japanese": "すぐに",
+  "romaji": "suguni",
+  "english": "instantly",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0074",
+  "japanese": "ストーブ",
+  "romaji": "sutoobu",
+  "english": "heater",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0075",
+  "japanese": "スプーン",
+  "romaji": "supuun",
+  "english": "spoon",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0076",
+  "japanese": "スポーツ",
+  "romaji": "supootsu",
+  "english": "sport",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0077",
+  "japanese": "ズボン",
+  "romaji": "zubon",
+  "english": "trousers",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0078",
+  "japanese": "スリッパ",
+  "romaji": "surippa",
+  "english": "slippers",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0079",
+  "japanese": "する",
+  "romaji": "suru",
+  "english": "to do",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0080",
+  "japanese": "セーター",
+  "romaji": "seetaa",
+  "english": "sweater",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0081",
+  "japanese": "せっけん",
+  "romaji": "sekken",
+  "english": "economy",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0082",
+  "japanese": "ゼロ",
+  "romaji": "zero",
+  "english": "zero",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0083",
+  "japanese": "そうして/そして",
+  "romaji": "soushite/soshite",
+  "english": "and",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0084",
+  "japanese": "そこ",
+  "romaji": "soko",
+  "english": "that place",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0085",
+  "japanese": "そちら",
+  "romaji": "sochira",
+  "english": "over there",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0086",
+  "japanese": "そっち",
+  "romaji": "sotchi",
+  "english": "over there",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0087",
+  "japanese": "その",
+  "romaji": "sono",
+  "english": "that",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0088",
+  "japanese": "そば",
+  "romaji": "soba",
+  "english": "near",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0089",
+  "japanese": "それ",
+  "romaji": "sore",
+  "english": "that",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0090",
+  "japanese": "それから",
+  "romaji": "sorekara",
+  "english": "after that",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0091",
+  "japanese": "それでは",
+  "romaji": "soredeha",
+  "english": "in that situation",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0092",
+  "japanese": "たいへん",
+  "romaji": "taihen",
+  "english": "very",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0093",
+  "japanese": "たくさん",
+  "romaji": "takusan",
+  "english": "many",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0094",
+  "japanese": "タクシー",
+  "romaji": "takushii",
+  "english": "taxi",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0095",
+  "japanese": "たて",
+  "romaji": "tate",
+  "english": "length",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0096",
+  "japanese": "たばこ",
+  "romaji": "tabako",
+  "english": "tobacco",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0097",
+  "japanese": "たぶん",
+  "romaji": "tabun",
+  "english": "probably",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0098",
+  "japanese": "だんだん",
+  "romaji": "dandan",
+  "english": "gradually",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0099",
+  "japanese": "ちゃわん",
+  "romaji": "chawan",
+  "english": "rice bowl",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0100",
+  "japanese": "ちょうど",
+  "romaji": "choudo",
+  "english": "exactly",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0101",
+  "japanese": "ちょっと",
+  "romaji": "chotto",
+  "english": "somewhat",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0102",
+  "japanese": "つける",
+  "romaji": "tsukeru",
+  "english": "to turn on",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0103",
+  "japanese": "つまらない",
+  "romaji": "tsumaranai",
+  "english": "boring",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0104",
+  "japanese": "テープ",
+  "romaji": "teepu",
+  "english": "tape",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0105",
+  "japanese": "テーブル",
+  "romaji": "teeburu",
+  "english": "table",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0106",
+  "japanese": "テープレコーダー",
+  "romaji": "teepurekoodaa",
+  "english": "tape recorder",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0107",
+  "japanese": "できる",
+  "romaji": "dekiru",
+  "english": "to be able to",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0108",
+  "japanese": "テスト",
+  "romaji": "tesuto",
+  "english": "test",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0109",
+  "japanese": "では",
+  "romaji": "deha",
+  "english": "with that...",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0110",
+  "japanese": "デパート",
+  "romaji": "depaato",
+  "english": "department store",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0111",
+  "japanese": "でも",
+  "romaji": "demo",
+  "english": "but",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0112",
+  "japanese": "テレビ",
+  "romaji": "terebi",
+  "english": "television",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0113",
+  "japanese": "ドア",
+  "romaji": "doa",
+  "english": "Western style door",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0114",
+  "japanese": "トイレ",
+  "romaji": "toire",
+  "english": "toilet",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0115",
+  "japanese": "どう",
+  "romaji": "dou",
+  "english": "how",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0116",
+  "japanese": "どうして",
+  "romaji": "doushite",
+  "english": "for what reason",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0117",
+  "japanese": "どうぞ",
+  "romaji": "douzo",
+  "english": "please",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0118",
+  "japanese": "どうも",
+  "romaji": "doumo",
+  "english": "thanks",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0119",
+  "japanese": "どこ",
+  "romaji": "doko",
+  "english": "where",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0120",
+  "japanese": "どちら",
+  "romaji": "dochira",
+  "english": "which of two",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0121",
+  "japanese": "どっち",
+  "romaji": "dotchi",
+  "english": "which",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0122",
+  "japanese": "とても",
+  "romaji": "totemo",
+  "english": "very",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0123",
+  "japanese": "どなた",
+  "romaji": "donata",
+  "english": "who",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0124",
+  "japanese": "どの",
+  "romaji": "dono",
+  "english": "which",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0125",
+  "japanese": "とりにく",
+  "romaji": "toriniku",
+  "english": "chicken meat",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0126",
+  "japanese": "どれ",
+  "romaji": "dore",
+  "english": "which",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0127",
+  "japanese": "ナイフ",
+  "romaji": "naifu",
+  "english": "knife",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0128",
+  "japanese": "なぜ",
+  "romaji": "naze",
+  "english": "why",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0129",
+  "japanese": "など",
+  "romaji": "nado",
+  "english": "et cetera",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0130",
+  "japanese": "なる",
+  "romaji": "naru",
+  "english": "to become",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0131",
+  "japanese": "ニュース",
+  "romaji": "nyuusu",
+  "english": "news",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0132",
+  "japanese": "ネクタイ",
+  "romaji": "nekutai",
+  "english": "tie",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0133",
+  "japanese": "ノート",
+  "romaji": "nooto",
+  "english": "notebook",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0134",
+  "japanese": "パーティー",
+  "romaji": "paateii",
+  "english": "party",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0135",
+  "japanese": "はい",
+  "romaji": "hai",
+  "english": "yes",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0136",
+  "japanese": "はく",
+  "romaji": "haku",
+  "english": "to wear",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0137",
+  "japanese": "はし",
+  "romaji": "hashi",
+  "english": "chopsticks",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0138",
+  "japanese": "バス",
+  "romaji": "basu",
+  "english": "bus",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0139",
+  "japanese": "バター",
+  "romaji": "bataa",
+  "english": "butter",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0140",
+  "japanese": "パン",
+  "romaji": "pan",
+  "english": "bread",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0141",
+  "japanese": "ハンカチ",
+  "romaji": "hankachi",
+  "english": "handkerchief",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0142",
+  "japanese": "フィルム",
+  "romaji": "firumu",
+  "english": "roll of film",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0143",
+  "japanese": "プール",
+  "romaji": "puuru",
+  "english": "swimming pool",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0144",
+  "japanese": "フォーク",
+  "romaji": "fooku",
+  "english": "fork",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0145",
+  "japanese": "ふろ",
+  "romaji": "furo",
+  "english": "bath",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0146",
+  "japanese": "ページ",
+  "romaji": "peeji",
+  "english": "page",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0147",
+  "japanese": "ベッド",
+  "romaji": "beddo",
+  "english": "bed",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0148",
+  "japanese": "ペット",
+  "romaji": "petto",
+  "english": "pet",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0149",
+  "japanese": "ペン",
+  "romaji": "pen",
+  "english": "pen",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0150",
+  "japanese": "ボールペン",
+  "romaji": "boorupen",
+  "english": "ball-point pen",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0151",
+  "japanese": "ほか",
+  "romaji": "hoka",
+  "english": "other",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0152",
+  "japanese": "ポケット",
+  "romaji": "poketto",
+  "english": "pocket",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0153",
+  "japanese": "ポスト",
+  "romaji": "posuto",
+  "english": "post",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0154",
+  "japanese": "ボタン",
+  "romaji": "botan",
+  "english": "button",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0155",
+  "japanese": "ホテル",
+  "romaji": "hoteru",
+  "english": "hotel",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0156",
+  "japanese": "ほんとう",
+  "romaji": "hontou",
+  "english": "truth",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0157",
+  "japanese": "まずい",
+  "romaji": "mazui",
+  "english": "unpleasant",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0158",
+  "japanese": "また",
+  "romaji": "mata",
+  "english": "again",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0159",
+  "japanese": "まだ",
+  "romaji": "mada",
+  "english": "yet",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0160",
+  "japanese": "まっすぐ",
+  "romaji": "massugu",
+  "english": "straight ahead",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0161",
+  "japanese": "マッチ",
+  "romaji": "matchi",
+  "english": "match",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0162",
+  "japanese": "みんな",
+  "romaji": "minna",
+  "english": "everyone",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0163",
+  "japanese": "メートル",
+  "romaji": "meetoru",
+  "english": "metre",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0164",
+  "japanese": "もう",
+  "romaji": "mou",
+  "english": "already",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0165",
+  "japanese": "もういちど",
+  "romaji": "mouichido",
+  "english": "again",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0166",
+  "japanese": "もっと",
+  "romaji": "motto",
+  "english": "more",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0167",
+  "japanese": "やる",
+  "romaji": "yaru",
+  "english": "to do",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0168",
+  "japanese": "ゆっくりと",
+  "romaji": "yukkurito",
+  "english": "slowly",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0169",
+  "japanese": "よく",
+  "romaji": "yoku",
+  "english": "often",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0170",
+  "japanese": "より、ほう",
+  "romaji": "yori,hou",
+  "english": "Used for comparison.",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0171",
+  "japanese": "ラジオ",
+  "romaji": "rajio",
+  "english": "radio",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0172",
+  "japanese": "ラジカセ / ラジオカセット",
+  "romaji": "rajikase / rajiokasetto",
+  "english": "radio cassette player",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0173",
+  "japanese": "りっぱ",
+  "romaji": "rippa",
+  "english": "splendid",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0174",
+  "japanese": "レコード",
+  "romaji": "rekoodo",
+  "english": "record",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0175",
+  "japanese": "レストラン",
+  "romaji": "resutoran",
+  "english": "restaurant",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0176",
+  "japanese": "ワイシャツ",
+  "romaji": "waishatsu",
+  "english": "business shirt",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0177",
+  "japanese": "わるい",
+  "romaji": "warui",
+  "english": "bad",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0178",
+  "japanese": "あめ",
+  "romaji": "ame",
+  "english": "candy",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0179",
+  "japanese": "やすい",
+  "romaji": "yasui",
+  "english": "cheap",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0180",
+  "japanese": "くらい",
+  "romaji": "kurai",
+  "english": "gloomy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0181",
+  "japanese": "いみ",
+  "romaji": "imi",
+  "english": "meaning",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0182",
+  "japanese": "やさしい",
+  "romaji": "yasashii",
+  "english": "easy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0183",
+  "japanese": "ちがう",
+  "romaji": "chigau",
+  "english": "to differ",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0184",
+  "japanese": "いしゃ",
+  "romaji": "isha",
+  "english": "medical doctor",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0185",
+  "japanese": "いち",
+  "romaji": "ichi",
+  "english": "one",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0186",
+  "japanese": "ひとつ",
+  "romaji": "hitotsu",
+  "english": "one",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0187",
+  "japanese": "ひとつき",
+  "romaji": "hitotsuki",
+  "english": "one month",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0188",
+  "japanese": "おととい",
+  "romaji": "ototoi",
+  "english": "day before yesterday",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0189",
+  "japanese": "おととし",
+  "romaji": "ototoshi",
+  "english": "year before last",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0190",
+  "japanese": "いっしょ",
+  "romaji": "issho",
+  "english": "together",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0191",
+  "japanese": "ひとり",
+  "romaji": "hitori",
+  "english": "one person",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0192",
+  "japanese": "いちにち",
+  "romaji": "ichinichi",
+  "english": "one day",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0193",
+  "japanese": "ひく",
+  "romaji": "hiku",
+  "english": "to pull",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0194",
+  "japanese": "のみもの",
+  "romaji": "nomimono",
+  "english": "a drink",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0195",
+  "japanese": "のむ",
+  "romaji": "nomu",
+  "english": "to drink",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0196",
+  "japanese": "みぎ",
+  "romaji": "migi",
+  "english": "right side",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0197",
+  "japanese": "えいが",
+  "romaji": "eiga",
+  "english": "movie",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0198",
+  "japanese": "えいがかん",
+  "romaji": "eigakan",
+  "english": "cinema",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0199",
+  "japanese": "およぐ",
+  "romaji": "oyogu",
+  "english": "to swim",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0200",
+  "japanese": "えいご",
+  "romaji": "eigo",
+  "english": "English language",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0201",
+  "japanese": "えき",
+  "romaji": "eki",
+  "english": "station",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0202",
+  "japanese": "とおい",
+  "romaji": "tooi",
+  "english": "far",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0203",
+  "japanese": "えんぴつ",
+  "romaji": "enpitsu",
+  "english": "pencil",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0204",
+  "japanese": "しお",
+  "romaji": "shio",
+  "english": "salt",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0205",
+  "japanese": "きたない",
+  "romaji": "kitanai",
+  "english": "dirty",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0206",
+  "japanese": "おくさん",
+  "romaji": "okusan",
+  "english": "wife",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0207",
+  "japanese": "おす",
+  "romaji": "osu",
+  "english": "to push",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0208",
+  "japanese": "よこ",
+  "romaji": "yoko",
+  "english": "beside",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0209",
+  "japanese": "きいろ",
+  "romaji": "kiiro",
+  "english": "yellow",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0210",
+  "japanese": "きいろい",
+  "romaji": "kiiroi",
+  "english": "yellow",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0211",
+  "japanese": "ぬるい",
+  "romaji": "nurui",
+  "english": "luke warm",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0212",
+  "japanese": "おんがく",
+  "romaji": "ongaku",
+  "english": "music",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0213",
+  "japanese": "した",
+  "romaji": "shita",
+  "english": "below",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0214",
+  "japanese": "へた",
+  "romaji": "heta",
+  "english": "unskillful",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0215",
+  "japanese": "なん/なに",
+  "romaji": "nan/nani",
+  "english": "what",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0216",
+  "japanese": "なつ",
+  "romaji": "natsu",
+  "english": "summer",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0217",
+  "japanese": "なつやすみ",
+  "romaji": "natsuyasumi",
+  "english": "summer holiday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0218",
+  "japanese": "いえ",
+  "romaji": "ie",
+  "english": "house",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0219",
+  "japanese": "かぞく",
+  "romaji": "kazoku",
+  "english": "family",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0220",
+  "japanese": "かてい",
+  "romaji": "katei",
+  "english": "household",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0221",
+  "japanese": "ひま",
+  "romaji": "hima",
+  "english": "free time",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0222",
+  "japanese": "くだもの",
+  "romaji": "kudamono",
+  "english": "fruit",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0223",
+  "japanese": "うた",
+  "romaji": "uta",
+  "english": "song",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0224",
+  "japanese": "うたう",
+  "romaji": "utau",
+  "english": "to sing",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0225",
+  "japanese": "かようび",
+  "romaji": "kayoubi",
+  "english": "Tuesday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0226",
+  "japanese": "はな",
+  "romaji": "hana",
+  "english": "flower",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0227",
+  "japanese": "かびん",
+  "romaji": "kabin",
+  "english": "a vase",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0228",
+  "japanese": "にもつ",
+  "romaji": "nimotsu",
+  "english": "luggage",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0229",
+  "japanese": "あう",
+  "romaji": "au",
+  "english": "to meet",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0230",
+  "japanese": "かいしゃ",
+  "romaji": "kaisha",
+  "english": "company",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0231",
+  "japanese": "うみ",
+  "romaji": "umi",
+  "english": "sea",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0232",
+  "japanese": "はいざら",
+  "romaji": "haizara",
+  "english": "ashtray",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0233",
+  "japanese": "みなさん",
+  "romaji": "minasan",
+  "english": "everyone",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0234",
+  "japanese": "え",
+  "romaji": "e",
+  "english": "picture",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0235",
+  "japanese": "あく",
+  "romaji": "aku",
+  "english": "to open",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0236",
+  "japanese": "あける",
+  "romaji": "akeru",
+  "english": "to open",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0237",
+  "japanese": "かいだん",
+  "romaji": "kaidan",
+  "english": "stairs",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0238",
+  "japanese": "そと",
+  "romaji": "soto",
+  "english": "outside",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0239",
+  "japanese": "がいこく",
+  "romaji": "gaikoku",
+  "english": "foreign country",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0240",
+  "japanese": "がいこくじん",
+  "romaji": "gaikokujin",
+  "english": "foreigner",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0241",
+  "japanese": "おぼえる",
+  "romaji": "oboeru",
+  "english": "to remember",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0242",
+  "japanese": "かど",
+  "romaji": "kado",
+  "english": "a corner",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0243",
+  "japanese": "がっこう",
+  "romaji": "gakkou",
+  "english": "school",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0244",
+  "japanese": "がくせい",
+  "romaji": "gakusei",
+  "english": "student",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0245",
+  "japanese": "たのしい",
+  "romaji": "tanoshii",
+  "english": "enjoyable",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0246",
+  "japanese": "さむい",
+  "romaji": "samui",
+  "english": "cold",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0247",
+  "japanese": "かんじ",
+  "romaji": "kanji",
+  "english": "Chinese character",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0248",
+  "japanese": "あまい",
+  "romaji": "amai",
+  "english": "sweet",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0249",
+  "japanese": "まるい",
+  "romaji": "marui",
+  "english": "round",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0250",
+  "japanese": "めがね",
+  "romaji": "megane",
+  "english": "glasses",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0251",
+  "japanese": "あぶない",
+  "romaji": "abunai",
+  "english": "dangerous",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0252",
+  "japanese": "つくえ",
+  "romaji": "tsukue",
+  "english": "desk",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0253",
+  "japanese": "かえる",
+  "romaji": "kaeru",
+  "english": "to go back",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0254",
+  "japanese": "おきる",
+  "romaji": "okiru",
+  "english": "to get up",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0255",
+  "japanese": "きっさてん",
+  "romaji": "kissaten",
+  "english": "coffee lounge",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0256",
+  "japanese": "やすみ",
+  "romaji": "yasumi",
+  "english": "rest",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0257",
+  "japanese": "やすむ",
+  "romaji": "yasumu",
+  "english": "to rest",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0258",
+  "japanese": "すう",
+  "romaji": "suu",
+  "english": "to smoke",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0259",
+  "japanese": "ぎゅうにく",
+  "romaji": "gyuuniku",
+  "english": "beef",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0260",
+  "japanese": "ぎゅうにゅう",
+  "romaji": "gyuunyuu",
+  "english": "milk",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0261",
+  "japanese": "きょねん",
+  "romaji": "kyonen",
+  "english": "last year",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0262",
+  "japanese": "いる",
+  "romaji": "iru",
+  "english": "to be",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0263",
+  "japanese": "さかな",
+  "romaji": "sakana",
+  "english": "fish",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0264",
+  "japanese": "つよい",
+  "romaji": "tsuyoi",
+  "english": "powerful",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0265",
+  "japanese": "おしえる",
+  "romaji": "oshieru",
+  "english": "to teach",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0266",
+  "japanese": "きょうしつ",
+  "romaji": "kyoushitsu",
+  "english": "classroom",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0267",
+  "japanese": "せまい",
+  "romaji": "semai",
+  "english": "narrow",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0268",
+  "japanese": "まがる",
+  "romaji": "magaru",
+  "english": "to turn",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0269",
+  "japanese": "つとめる",
+  "romaji": "tsutomeru",
+  "english": "to work for someone",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0270",
+  "japanese": "ちかい",
+  "romaji": "chikai",
+  "english": "near",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0271",
+  "japanese": "ちかく",
+  "romaji": "chikaku",
+  "english": "near",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0272",
+  "japanese": "きんようび",
+  "romaji": "kinyoubi",
+  "english": "Friday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0273",
+  "japanese": "ぎんこう",
+  "romaji": "ginkou",
+  "english": "bank",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0274",
+  "japanese": "きゅう / く",
+  "romaji": "kyuu / ku",
+  "english": "nine",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0275",
+  "japanese": "ここのつ",
+  "romaji": "kokonotsu",
+  "english": "nine",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0276",
+  "japanese": "ここのか",
+  "romaji": "kokonoka",
+  "english": "nine days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0277",
+  "japanese": "そら",
+  "romaji": "sora",
+  "english": "sky",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0278",
+  "japanese": "くつ",
+  "romaji": "kutsu",
+  "english": "shoes",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0279",
+  "japanese": "くつした",
+  "romaji": "kutsushita",
+  "english": "socks",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0280",
+  "japanese": "あに",
+  "romaji": "ani",
+  "english": "older brother",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0281",
+  "japanese": "きょうだい",
+  "romaji": "kyoudai",
+  "english": "siblings",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0282",
+  "japanese": "けいかん",
+  "romaji": "keikan",
+  "english": "policeman",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0283",
+  "japanese": "かるい",
+  "romaji": "karui",
+  "english": "light",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0284",
+  "japanese": "けっこう",
+  "romaji": "kekkou",
+  "english": "splendid",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0285",
+  "japanese": "けっこん",
+  "romaji": "kekkon",
+  "english": "marriage",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0286",
+  "japanese": "げつようび",
+  "romaji": "getsuyoubi",
+  "english": "Monday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0287",
+  "japanese": "いや",
+  "romaji": "iya",
+  "english": "unpleasant",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0288",
+  "japanese": "きらい",
+  "romaji": "kirai",
+  "english": "hate",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0289",
+  "japanese": "たてもの",
+  "romaji": "tatemono",
+  "english": "building",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0290",
+  "japanese": "いぬ",
+  "romaji": "inu",
+  "english": "dog",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0291",
+  "japanese": "みせる",
+  "romaji": "miseru",
+  "english": "to show",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0292",
+  "japanese": "みる",
+  "romaji": "miru",
+  "english": "to see",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0293",
+  "japanese": "げんき",
+  "romaji": "genki",
+  "english": "health",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0294",
+  "japanese": "げんかん",
+  "romaji": "genkan",
+  "english": "entry hall",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0295",
+  "japanese": "いう",
+  "romaji": "iu",
+  "english": "to say",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0296",
+  "japanese": "ことば",
+  "romaji": "kotoba",
+  "english": "word",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0297",
+  "japanese": "ふるい",
+  "romaji": "furui",
+  "english": "old",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0298",
+  "japanese": "よぶ",
+  "romaji": "yobu",
+  "english": "to call out",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0299",
+  "japanese": "と",
+  "romaji": "to",
+  "english": "Japanese style door",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0300",
+  "japanese": "ご",
+  "romaji": "go",
+  "english": "five",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0301",
+  "japanese": "いつつ",
+  "romaji": "itsutsu",
+  "english": "five",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0302",
+  "japanese": "いつか",
+  "romaji": "itsuka",
+  "english": "five days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0303",
+  "japanese": "ごご",
+  "romaji": "gogo",
+  "english": "afternoon",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0304",
+  "japanese": "ごぜん",
+  "romaji": "gozen",
+  "english": "morning",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0305",
+  "japanese": "あと",
+  "romaji": "ato",
+  "english": "afterwards",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0306",
+  "japanese": "うしろ",
+  "romaji": "ushiro",
+  "english": "behind",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0307",
+  "japanese": "ごはん",
+  "romaji": "gohan",
+  "english": "cooked rice",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0308",
+  "japanese": "こうさてん",
+  "romaji": "kousaten",
+  "english": "intersection",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0309",
+  "japanese": "こうばん",
+  "romaji": "kouban",
+  "english": "police box",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0310",
+  "japanese": "こうえん",
+  "romaji": "kouen",
+  "english": "park",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0311",
+  "japanese": "あつい",
+  "romaji": "atsui",
+  "english": "kind",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0312",
+  "japanese": "くち",
+  "romaji": "kuchi",
+  "english": "mouth",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0313",
+  "japanese": "むこう",
+  "romaji": "mukou",
+  "english": "over there",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0314",
+  "japanese": "すき",
+  "romaji": "suki",
+  "english": "likeable",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0315",
+  "japanese": "ひろい",
+  "romaji": "hiroi",
+  "english": "spacious",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0316",
+  "japanese": "こうちゃ",
+  "romaji": "koucha",
+  "english": "black tea",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0317",
+  "japanese": "いく",
+  "romaji": "iku",
+  "english": "to go",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0318",
+  "japanese": "おりる",
+  "romaji": "oriru",
+  "english": "to get off",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0319",
+  "japanese": "ふる",
+  "romaji": "furu",
+  "english": "to fall",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0320",
+  "japanese": "たかい",
+  "romaji": "takai",
+  "english": "tall",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0321",
+  "japanese": "くに",
+  "romaji": "kuni",
+  "english": "country",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0322",
+  "japanese": "くろ",
+  "romaji": "kuro",
+  "english": "black",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0323",
+  "japanese": "くろい",
+  "romaji": "kuroi",
+  "english": "black",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0324",
+  "japanese": "いま",
+  "romaji": "ima",
+  "english": "now",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0325",
+  "japanese": "こんげつ",
+  "romaji": "kongetsu",
+  "english": "this month",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0326",
+  "japanese": "こんしゅう",
+  "romaji": "konshuu",
+  "english": "this week",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0327",
+  "japanese": "けさ",
+  "romaji": "kesa",
+  "english": "this morning",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0328",
+  "japanese": "きょう",
+  "romaji": "kyou",
+  "english": "today",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0329",
+  "japanese": "ことし",
+  "romaji": "kotoshi",
+  "english": "this year",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0330",
+  "japanese": "こんばん",
+  "romaji": "konban",
+  "english": "this evening",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0331",
+  "japanese": "こまる",
+  "romaji": "komaru",
+  "english": "to be worried",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0332",
+  "japanese": "ひだり",
+  "romaji": "hidari",
+  "english": "left hand side",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0333",
+  "japanese": "さす",
+  "romaji": "sasu",
+  "english": "to stretch out hands",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0334",
+  "japanese": "さとう",
+  "romaji": "satou",
+  "english": "sugar",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0335",
+  "japanese": "すわる",
+  "romaji": "suwaru",
+  "english": "to sit",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0336",
+  "japanese": "ほそい",
+  "romaji": "hosoi",
+  "english": "thin",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0337",
+  "japanese": "さいふ",
+  "romaji": "saifu",
+  "english": "wallet",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0338",
+  "japanese": "さく",
+  "romaji": "saku",
+  "english": "to bloom",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0339",
+  "japanese": "つくる",
+  "romaji": "tsukuru",
+  "english": "to make",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0340",
+  "japanese": "さくぶん",
+  "romaji": "sakubun",
+  "english": "composition",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0341",
+  "japanese": "きのう",
+  "romaji": "kinou",
+  "english": "yesterday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0342",
+  "japanese": "ゆうべ",
+  "romaji": "yuube",
+  "english": "last night",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0343",
+  "japanese": "ざっし",
+  "romaji": "zasshi",
+  "english": "magazine",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0344",
+  "japanese": "さん",
+  "romaji": "san",
+  "english": "three",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0345",
+  "japanese": "みっつ",
+  "romaji": "mittsu",
+  "english": "three",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0346",
+  "japanese": "みっか",
+  "romaji": "mikka",
+  "english": "three days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0347",
+  "japanese": "かさ",
+  "romaji": "kasa",
+  "english": "umbrella",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0348",
+  "japanese": "やま",
+  "romaji": "yama",
+  "english": "mountain",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0349",
+  "japanese": "さんぽする",
+  "romaji": "sanposuru",
+  "english": "to stroll",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0350",
+  "japanese": "しごと",
+  "romaji": "shigoto",
+  "english": "job",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0351",
+  "japanese": "つかう",
+  "romaji": "tsukau",
+  "english": "to use",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0352",
+  "japanese": "し / よん",
+  "romaji": "shi / yon",
+  "english": "four",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0353",
+  "japanese": "よっつ",
+  "romaji": "yottsu",
+  "english": "four",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0354",
+  "japanese": "よっか",
+  "romaji": "yokka",
+  "english": "four days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0355",
+  "japanese": "はじまる",
+  "romaji": "hajimaru",
+  "english": "to begin",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0356",
+  "japanese": "あね",
+  "romaji": "ane",
+  "english": "older sister",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0357",
+  "japanese": "こども",
+  "romaji": "kodomo",
+  "english": "child",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0358",
+  "japanese": "とまる",
+  "romaji": "tomaru",
+  "english": "to come to a halt",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0359",
+  "japanese": "しぬ",
+  "romaji": "shinu",
+  "english": "to die",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0360",
+  "japanese": "わたくし",
+  "romaji": "watakushi",
+  "english": "I",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0361",
+  "japanese": "かみ",
+  "romaji": "kami",
+  "english": "paper",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0362",
+  "japanese": "は",
+  "romaji": "ha",
+  "english": "tooth",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0363",
+  "japanese": "じびき",
+  "romaji": "jibiki",
+  "english": "dictionary",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0364",
+  "japanese": "もつ",
+  "romaji": "motsu",
+  "english": "to hold",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0365",
+  "japanese": "ときどき",
+  "romaji": "tokidoki",
+  "english": "sometimes",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0366",
+  "japanese": "じかん",
+  "romaji": "jikan",
+  "english": "time",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0367",
+  "japanese": "とけい",
+  "romaji": "tokei",
+  "english": "watch",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0368",
+  "japanese": "つぎ",
+  "romaji": "tsugi",
+  "english": "next",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0369",
+  "japanese": "みみ",
+  "romaji": "mimi",
+  "english": "ear",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0370",
+  "japanese": "じてんしゃ",
+  "romaji": "jitensha",
+  "english": "bicycle",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0371",
+  "japanese": "じどうしゃ",
+  "romaji": "jidousha",
+  "english": "automobile",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0372",
+  "japanese": "じぶん",
+  "romaji": "jibun",
+  "english": "oneself",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0373",
+  "japanese": "じしょ",
+  "romaji": "jisho",
+  "english": "dictionary",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0374",
+  "japanese": "しち / なな",
+  "romaji": "shichi / nana",
+  "english": "seven",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0375",
+  "japanese": "ななつ",
+  "romaji": "nanatsu",
+  "english": "seven",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0376",
+  "japanese": "なのか",
+  "romaji": "nanoka",
+  "english": "seven days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0377",
+  "japanese": "しつもん",
+  "romaji": "shitsumon",
+  "english": "question",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0378",
+  "japanese": "しゃしん",
+  "romaji": "shashin",
+  "english": "photograph",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0379",
+  "japanese": "くるま",
+  "romaji": "kuruma",
+  "english": "car",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0380",
+  "japanese": "かりる",
+  "romaji": "kariru",
+  "english": "to borrow",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0381",
+  "japanese": "わかい",
+  "romaji": "wakai",
+  "english": "young",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0382",
+  "japanese": "よわい",
+  "romaji": "yowai",
+  "english": "weak",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0383",
+  "japanese": "とる",
+  "romaji": "toru",
+  "english": "to take something",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0384",
+  "japanese": "て",
+  "romaji": "te",
+  "english": "hand",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0385",
+  "japanese": "てがみ",
+  "romaji": "tegami",
+  "english": "letter",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0386",
+  "japanese": "じゅぎょう",
+  "romaji": "jugyou",
+  "english": "lesson",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0387",
+  "japanese": "あき",
+  "romaji": "aki",
+  "english": "autumn",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0388",
+  "japanese": "おわる",
+  "romaji": "owaru",
+  "english": "to finish",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0389",
+  "japanese": "ならう",
+  "romaji": "narau",
+  "english": "to learn",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0390",
+  "japanese": "すむ",
+  "romaji": "sumu",
+  "english": "to live in",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0391",
+  "japanese": "じゅう とお",
+  "romaji": "juu too",
+  "english": "ten",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0392",
+  "japanese": "とおか",
+  "romaji": "tooka",
+  "english": "ten days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0393",
+  "japanese": "おもい",
+  "romaji": "omoi",
+  "english": "heavy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0394",
+  "japanese": "しゅくだい",
+  "romaji": "shukudai",
+  "english": "homework",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0395",
+  "japanese": "でかける",
+  "romaji": "dekakeru",
+  "english": "to go out",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0396",
+  "japanese": "だす",
+  "romaji": "dasu",
+  "english": "to put out",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0397",
+  "japanese": "でる",
+  "romaji": "deru",
+  "english": "to appear",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0398",
+  "japanese": "でぐち",
+  "romaji": "deguchi",
+  "english": "exit",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0399",
+  "japanese": "はる",
+  "romaji": "haru",
+  "english": "spring",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0400",
+  "japanese": "はじめ",
+  "romaji": "hajime",
+  "english": "beginning",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0401",
+  "japanese": "はじめて",
+  "romaji": "hajimete",
+  "english": "for the first time",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0402",
+  "japanese": "ところ",
+  "romaji": "tokoro",
+  "english": "place",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0403",
+  "japanese": "かく",
+  "romaji": "kaku",
+  "english": "to write",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0404",
+  "japanese": "おんな",
+  "romaji": "onna",
+  "english": "woman",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0405",
+  "japanese": "おんなのこ",
+  "romaji": "onnanoko",
+  "english": "girl",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0406",
+  "japanese": "ちいさい",
+  "romaji": "chiisai",
+  "english": "little",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0407",
+  "japanese": "ちいさな",
+  "romaji": "chiisana",
+  "english": "little",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0408",
+  "japanese": "すこし",
+  "romaji": "sukoshi",
+  "english": "few",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0409",
+  "japanese": "すくない",
+  "romaji": "sukunai",
+  "english": "a few",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0410",
+  "japanese": "きえる",
+  "romaji": "kieru",
+  "english": "to disappear",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0411",
+  "japanese": "けす",
+  "romaji": "kesu",
+  "english": "to erase",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0412",
+  "japanese": "うえ",
+  "romaji": "ue",
+  "english": "on top of",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0413",
+  "japanese": "あげる",
+  "romaji": "ageru",
+  "english": "to give",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0414",
+  "japanese": "じょうず",
+  "romaji": "jouzu",
+  "english": "skillful",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0415",
+  "japanese": "うわぎ",
+  "romaji": "uwagi",
+  "english": "jacket",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0416",
+  "japanese": "じょうぶ",
+  "romaji": "joubu",
+  "english": "strong",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0417",
+  "japanese": "のる",
+  "romaji": "noru",
+  "english": "to get on",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0418",
+  "japanese": "いろ",
+  "romaji": "iro",
+  "english": "colour",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0419",
+  "japanese": "たべる",
+  "romaji": "taberu",
+  "english": "to eat",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0420",
+  "japanese": "たべもの",
+  "romaji": "tabemono",
+  "english": "food",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0421",
+  "japanese": "しょくどう",
+  "romaji": "shokudou",
+  "english": "dining hall",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0422",
+  "japanese": "ねる",
+  "romaji": "neru",
+  "english": "to go to bed",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0423",
+  "japanese": "あたらしい",
+  "romaji": "atarashii",
+  "english": "new",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0424",
+  "japanese": "しんぶん",
+  "romaji": "shinbun",
+  "english": "newspaper",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0425",
+  "japanese": "からい",
+  "romaji": "karai",
+  "english": "spicy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0426",
+  "japanese": "ひと",
+  "romaji": "hito",
+  "english": "person",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0427",
+  "japanese": "としょかん",
+  "romaji": "toshokan",
+  "english": "library",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0428",
+  "japanese": "ふく",
+  "romaji": "fuku",
+  "english": "to blow",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0429",
+  "japanese": "みず",
+  "romaji": "mizu",
+  "english": "water",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0430",
+  "japanese": "すいようび",
+  "romaji": "suiyoubi",
+  "english": "Wednesday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0431",
+  "japanese": "はれ",
+  "romaji": "hare",
+  "english": "clear weather",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0432",
+  "japanese": "はれる",
+  "romaji": "hareru",
+  "english": "to be sunny",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0433",
+  "japanese": "うまれる",
+  "romaji": "umareru",
+  "english": "to be born",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0434",
+  "japanese": "せいと",
+  "romaji": "seito",
+  "english": "pupil",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0435",
+  "japanese": "こえ",
+  "romaji": "koe",
+  "english": "voice",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0436",
+  "japanese": "にし",
+  "romaji": "nishi",
+  "english": "west",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0437",
+  "japanese": "あお",
+  "romaji": "ao",
+  "english": "blue",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0438",
+  "japanese": "あおい",
+  "romaji": "aoi",
+  "english": "blue",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0439",
+  "japanese": "しずか",
+  "romaji": "shizuka",
+  "english": "quiet",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0440",
+  "japanese": "あか",
+  "romaji": "aka",
+  "english": "red",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0441",
+  "japanese": "あかい",
+  "romaji": "akai",
+  "english": "red",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0442",
+  "japanese": "きる",
+  "romaji": "kiru",
+  "english": "to cut",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0443",
+  "japanese": "きって",
+  "romaji": "kitte",
+  "english": "postage stamp",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0444",
+  "japanese": "きっぷ",
+  "romaji": "kippu",
+  "english": "ticket",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0445",
+  "japanese": "ゆき",
+  "romaji": "yuki",
+  "english": "snow",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0446",
+  "japanese": "さき",
+  "romaji": "saki",
+  "english": "the future",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0447",
+  "japanese": "せんげつ",
+  "romaji": "sengetsu",
+  "english": "last month",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0448",
+  "japanese": "せんしゅう",
+  "romaji": "senshuu",
+  "english": "last week",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0449",
+  "japanese": "せんせい",
+  "romaji": "sensei",
+  "english": "teacher",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0450",
+  "japanese": "せん",
+  "romaji": "sen",
+  "english": "thousand",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0451",
+  "japanese": "かわ",
+  "romaji": "kawa",
+  "english": "river",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0452",
+  "japanese": "あらう",
+  "romaji": "arau",
+  "english": "to wash",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0453",
+  "japanese": "せんたく",
+  "romaji": "sentaku",
+  "english": "washing",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0454",
+  "japanese": "まえ",
+  "romaji": "mae",
+  "english": "before",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0455",
+  "japanese": "ぜんぶ",
+  "romaji": "zenbu",
+  "english": "all",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0456",
+  "japanese": "そうじする",
+  "romaji": "soujisuru",
+  "english": "to clean",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0457",
+  "japanese": "はやい",
+  "romaji": "hayai",
+  "english": "early",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0458",
+  "japanese": "まど",
+  "romaji": "mado",
+  "english": "window",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0459",
+  "japanese": "はしる",
+  "romaji": "hashiru",
+  "english": "to run",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0460",
+  "japanese": "あし",
+  "romaji": "ashi",
+  "english": "foot",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0461",
+  "japanese": "むら",
+  "romaji": "mura",
+  "english": "village",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0462",
+  "japanese": "おおい",
+  "romaji": "ooi",
+  "english": "many",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0463",
+  "japanese": "ふとい",
+  "romaji": "futoi",
+  "english": "fat",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0464",
+  "japanese": "からだ",
+  "romaji": "karada",
+  "english": "body",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0465",
+  "japanese": "まつ",
+  "romaji": "matsu",
+  "english": "to wait",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0466",
+  "japanese": "かす",
+  "romaji": "kasu",
+  "english": "to lend",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0467",
+  "japanese": "だいどころ",
+  "romaji": "daidokoro",
+  "english": "kitchen",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0468",
+  "japanese": "おおきい",
+  "romaji": "ookii",
+  "english": "big",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0469",
+  "japanese": "おおきな",
+  "romaji": "ookina",
+  "english": "big",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0470",
+  "japanese": "だいがく",
+  "romaji": "daigaku",
+  "english": "university",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0471",
+  "japanese": "だいすき",
+  "romaji": "daisuki",
+  "english": "to be very likeable",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0472",
+  "japanese": "たいしかん",
+  "romaji": "taishikan",
+  "english": "embassy",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0473",
+  "japanese": "だいじょうぶ",
+  "romaji": "daijoubu",
+  "english": "all right",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0474",
+  "japanese": "おとな",
+  "romaji": "otona",
+  "english": "adult",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0475",
+  "japanese": "おおぜい",
+  "romaji": "oozei",
+  "english": "great number of people",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0476",
+  "japanese": "たいせつ",
+  "romaji": "taisetsu",
+  "english": "important",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0477",
+  "japanese": "ぬぐ",
+  "romaji": "nugu",
+  "english": "to take off clothes",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0478",
+  "japanese": "だれ",
+  "romaji": "dare",
+  "english": "who",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0479",
+  "japanese": "みじかい",
+  "romaji": "mijikai",
+  "english": "short",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0480",
+  "japanese": "たんじょうび",
+  "romaji": "tanjoubi",
+  "english": "birthday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0481",
+  "japanese": "あたたかい",
+  "romaji": "atatakai",
+  "english": "warm",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0482",
+  "japanese": "おとこ",
+  "romaji": "otoko",
+  "english": "man",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0483",
+  "japanese": "おとこのこ",
+  "romaji": "otokonoko",
+  "english": "boy",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0484",
+  "japanese": "しる",
+  "romaji": "shiru",
+  "english": "to know",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0485",
+  "japanese": "ちかてつ",
+  "romaji": "chikatetsu",
+  "english": "underground train",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0486",
+  "japanese": "ちず",
+  "romaji": "chizu",
+  "english": "map",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0487",
+  "japanese": "いけ",
+  "romaji": "ike",
+  "english": "pond",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0488",
+  "japanese": "おく",
+  "romaji": "oku",
+  "english": "to put",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0489",
+  "japanese": "おそい",
+  "romaji": "osoi",
+  "english": "late",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0490",
+  "japanese": "ちゃいろ",
+  "romaji": "chairo",
+  "english": "brown",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0491",
+  "japanese": "つく",
+  "romaji": "tsuku",
+  "english": "to arrive at",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0492",
+  "japanese": "なか",
+  "romaji": "naka",
+  "english": "middle",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0493",
+  "japanese": "ひる",
+  "romaji": "hiru",
+  "english": "noon",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0494",
+  "japanese": "ひるごはん",
+  "romaji": "hirugohan",
+  "english": "midday meal",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0495",
+  "japanese": "あさ",
+  "romaji": "asa",
+  "english": "morning",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0496",
+  "japanese": "あさごはん",
+  "romaji": "asagohan",
+  "english": "breakfast",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0497",
+  "japanese": "まち",
+  "romaji": "machi",
+  "english": "town",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0498",
+  "japanese": "ながい",
+  "romaji": "nagai",
+  "english": "long",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0499",
+  "japanese": "とり",
+  "romaji": "tori",
+  "english": "bird",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0500",
+  "japanese": "いたい",
+  "romaji": "itai",
+  "english": "painful",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0501",
+  "japanese": "ひくい",
+  "romaji": "hikui",
+  "english": "short",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0502",
+  "japanese": "にわ",
+  "romaji": "niwa",
+  "english": "garden",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0503",
+  "japanese": "おとうと",
+  "romaji": "otouto",
+  "english": "younger brother",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0504",
+  "japanese": "しめる",
+  "romaji": "shimeru",
+  "english": "to tie",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0505",
+  "japanese": "てんき",
+  "romaji": "tenki",
+  "english": "weather",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0506",
+  "japanese": "みせ",
+  "romaji": "mise",
+  "english": "shop",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0507",
+  "japanese": "でんき",
+  "romaji": "denki",
+  "english": "electricity",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0508",
+  "japanese": "でんしゃ",
+  "romaji": "densha",
+  "english": "electric train",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0509",
+  "japanese": "でんわ",
+  "romaji": "denwa",
+  "english": "telephone",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0510",
+  "japanese": "わたす",
+  "romaji": "watasu",
+  "english": "to hand over",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0511",
+  "japanese": "わたる",
+  "romaji": "wataru",
+  "english": "to go across",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0512",
+  "japanese": "のぼる",
+  "romaji": "noboru",
+  "english": "to climb",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0513",
+  "japanese": "どようび",
+  "romaji": "doyoubi",
+  "english": "Saturday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0514",
+  "japanese": "ふゆ",
+  "romaji": "fuyu",
+  "english": "winter",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0515",
+  "japanese": "ひがし",
+  "romaji": "higashi",
+  "english": "east",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0516",
+  "japanese": "こたえる",
+  "romaji": "kotaeru",
+  "english": "to answer",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0517",
+  "japanese": "あたま",
+  "romaji": "atama",
+  "english": "head",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0518",
+  "japanese": "はたらく",
+  "romaji": "hataraku",
+  "english": "to work",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0519",
+  "japanese": "どうぶつ",
+  "romaji": "doubutsu",
+  "english": "animal",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0520",
+  "japanese": "おなじ",
+  "romaji": "onaji",
+  "english": "same",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0521",
+  "japanese": "みち",
+  "romaji": "michi",
+  "english": "street",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0522",
+  "japanese": "よむ",
+  "romaji": "yomu",
+  "english": "to read",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0523",
+  "japanese": "ぶたにく",
+  "romaji": "butaniku",
+  "english": "pork",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0524",
+  "japanese": "くもり",
+  "romaji": "kumori",
+  "english": "cloudy weather",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0525",
+  "japanese": "くもる",
+  "romaji": "kumoru",
+  "english": "to become cloudy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0526",
+  "japanese": "みなみ",
+  "romaji": "minami",
+  "english": "south",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0527",
+  "japanese": "むずかしい",
+  "romaji": "muzukashii",
+  "english": "difficult",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0528",
+  "japanese": "に",
+  "romaji": "ni",
+  "english": "two",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0529",
+  "japanese": "ふたつ",
+  "romaji": "futatsu",
+  "english": "two",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0530",
+  "japanese": "はたち",
+  "romaji": "hatachi",
+  "english": "20 years old",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0531",
+  "japanese": "はつか",
+  "romaji": "hatsuka",
+  "english": "twenty days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0532",
+  "japanese": "ふたり",
+  "romaji": "futari",
+  "english": "two people",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0533",
+  "japanese": "ふつか",
+  "romaji": "futsuka",
+  "english": "two days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0534",
+  "japanese": "にぎやか",
+  "romaji": "nigiyaka",
+  "english": "bustling",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0535",
+  "japanese": "にく",
+  "romaji": "niku",
+  "english": "meat",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0536",
+  "japanese": "にちようび",
+  "romaji": "nichiyoubi",
+  "english": "Sunday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0537",
+  "japanese": "はいる",
+  "romaji": "hairu",
+  "english": "to enter",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0538",
+  "japanese": "いれる",
+  "romaji": "ireru",
+  "english": "to put in",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0539",
+  "japanese": "いりぐち",
+  "romaji": "iriguchi",
+  "english": "entrance",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0540",
+  "japanese": "ねこ",
+  "romaji": "neko",
+  "english": "cat",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0541",
+  "japanese": "とし",
+  "romaji": "toshi",
+  "english": "year",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0542",
+  "japanese": "せ",
+  "romaji": "se",
+  "english": "height",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0543",
+  "japanese": "せびろ",
+  "romaji": "sebiro",
+  "english": "business suit",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0544",
+  "japanese": "かいもの",
+  "romaji": "kaimono",
+  "english": "shopping",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0545",
+  "japanese": "かう",
+  "romaji": "kau",
+  "english": "to buy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0546",
+  "japanese": "うる",
+  "romaji": "uru",
+  "english": "to sell",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0547",
+  "japanese": "おじいさん",
+  "romaji": "ojiisan",
+  "english": "grandfather",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0548",
+  "japanese": "おばさん",
+  "romaji": "obasan",
+  "english": "aunt",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0549",
+  "japanese": "しろ",
+  "romaji": "shiro",
+  "english": "white",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0550",
+  "japanese": "しろい",
+  "romaji": "shiroi",
+  "english": "white",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0551",
+  "japanese": "うすい",
+  "romaji": "usui",
+  "english": "thin",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0552",
+  "japanese": "はこ",
+  "romaji": "hako",
+  "english": "box",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0553",
+  "japanese": "はち",
+  "romaji": "hachi",
+  "english": "eight",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0554",
+  "japanese": "やっつ",
+  "romaji": "yattsu",
+  "english": "eight",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0555",
+  "japanese": "ようか",
+  "romaji": "youka",
+  "english": "eight days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0556",
+  "japanese": "やおや",
+  "romaji": "yaoya",
+  "english": "greengrocer",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0557",
+  "japanese": "はん",
+  "romaji": "han",
+  "english": "half",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0558",
+  "japanese": "はんぶん",
+  "romaji": "hanbun",
+  "english": "half minute",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0559",
+  "japanese": "うるさい",
+  "romaji": "urusai",
+  "english": "noisy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0560",
+  "japanese": "ばん",
+  "romaji": "ban",
+  "english": "evening",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0561",
+  "japanese": "ばんごはん",
+  "romaji": "bangohan",
+  "english": "evening meal",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0562",
+  "japanese": "ばんごう",
+  "romaji": "bangou",
+  "english": "number",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0563",
+  "japanese": "つかれる",
+  "romaji": "tsukareru",
+  "english": "to get tired",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0564",
+  "japanese": "とぶ",
+  "romaji": "tobu",
+  "english": "to fly",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0565",
+  "japanese": "ひこうき",
+  "romaji": "hikouki",
+  "english": "aeroplane",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0566",
+  "japanese": "ひゃく",
+  "romaji": "hyaku",
+  "english": "hundred",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0567",
+  "japanese": "びょういん",
+  "romaji": "byouin",
+  "english": "hospital",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0568",
+  "japanese": "びょうき",
+  "romaji": "byouki",
+  "english": "illness",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0569",
+  "japanese": "へや",
+  "romaji": "heya",
+  "english": "room",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0570",
+  "japanese": "ふうとう",
+  "romaji": "fuutou",
+  "english": "envelope",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0571",
+  "japanese": "かぜ",
+  "romaji": "kaze",
+  "english": "wind",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0572",
+  "japanese": "もの",
+  "romaji": "mono",
+  "english": "thing",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0573",
+  "japanese": "わかる",
+  "romaji": "wakaru",
+  "english": "to be understood",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0574",
+  "japanese": "ぶんしょう",
+  "romaji": "bunshou",
+  "english": "sentence",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0575",
+  "japanese": "きく",
+  "romaji": "kiku",
+  "english": "to hear",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0576",
+  "japanese": "ならぶ",
+  "romaji": "narabu",
+  "english": "to line up",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0577",
+  "japanese": "ならべる",
+  "romaji": "naraberu",
+  "english": "to line up",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0578",
+  "japanese": "しまる",
+  "romaji": "shimaru",
+  "english": "to close",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0579",
+  "japanese": "へん",
+  "romaji": "hen",
+  "english": "area",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0580",
+  "japanese": "かえす",
+  "romaji": "kaesu",
+  "english": "to return something",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0581",
+  "japanese": "べんり",
+  "romaji": "benri",
+  "english": "useful",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0582",
+  "japanese": "べんきょうする",
+  "romaji": "benkyousuru",
+  "english": "to study",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0583",
+  "japanese": "あるく",
+  "romaji": "aruku",
+  "english": "to walk",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0584",
+  "japanese": "かた",
+  "romaji": "kata",
+  "english": "person",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0585",
+  "japanese": "ぼうし",
+  "romaji": "boushi",
+  "english": "hat",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0586",
+  "japanese": "わすれる",
+  "romaji": "wasureru",
+  "english": "to forget",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0587",
+  "japanese": "いそがしい",
+  "romaji": "isogashii",
+  "english": "busy",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0588",
+  "japanese": "きた",
+  "romaji": "kita",
+  "english": "north",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0589",
+  "japanese": "ほん",
+  "romaji": "hon",
+  "english": "book",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0590",
+  "japanese": "ほんだな",
+  "romaji": "hondana",
+  "english": "bookshelves",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0591",
+  "japanese": "みがく",
+  "romaji": "migaku",
+  "english": "to brush teeth",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0592",
+  "japanese": "いもうと",
+  "romaji": "imouto",
+  "english": "younger sister",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0593",
+  "japanese": "まいげつ/まいつき",
+  "romaji": "maigetsu/maitsuki",
+  "english": "every month",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0594",
+  "japanese": "まいしゅう",
+  "romaji": "maishuu",
+  "english": "every week",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0595",
+  "japanese": "まいあさ",
+  "romaji": "maiasa",
+  "english": "every morning",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0596",
+  "japanese": "まいにち",
+  "romaji": "mainichi",
+  "english": "every day",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0597",
+  "japanese": "まいねん/まいとし",
+  "romaji": "mainen/maitoshi",
+  "english": "every year",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0598",
+  "japanese": "まいばん",
+  "romaji": "maiban",
+  "english": "every night",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0599",
+  "japanese": "まん",
+  "romaji": "man",
+  "english": "ten thousand",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0600",
+  "japanese": "まんねんひつ",
+  "romaji": "mannenhitsu",
+  "english": "fountain pen",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0601",
+  "japanese": "なくす",
+  "romaji": "nakusu",
+  "english": "to lose something",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0602",
+  "japanese": "なまえ",
+  "romaji": "namae",
+  "english": "name",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0603",
+  "japanese": "あかるい",
+  "romaji": "akarui",
+  "english": "bright",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0604",
+  "japanese": "あした",
+  "romaji": "ashita",
+  "english": "tomorrow",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0605",
+  "japanese": "なく",
+  "romaji": "naku",
+  "english": "animal noise. to chirp",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0606",
+  "japanese": "き",
+  "romaji": "ki",
+  "english": "tree",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0607",
+  "japanese": "もくようび",
+  "romaji": "mokuyoubi",
+  "english": "Thursday",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0608",
+  "japanese": "め",
+  "romaji": "me",
+  "english": "eye",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0609",
+  "japanese": "もんだい",
+  "romaji": "mondai",
+  "english": "problem",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0610",
+  "japanese": "もん",
+  "romaji": "mon",
+  "english": "gate",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0611",
+  "japanese": "よる",
+  "romaji": "yoru",
+  "english": "evening",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0612",
+  "japanese": "やさい",
+  "romaji": "yasai",
+  "english": "vegetable",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0613",
+  "japanese": "くすり",
+  "romaji": "kusuri",
+  "english": "medicine",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0614",
+  "japanese": "ともだち",
+  "romaji": "tomodachi",
+  "english": "friend",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0615",
+  "japanese": "ゆうめい",
+  "romaji": "yuumei",
+  "english": "famous",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0616",
+  "japanese": "あそぶ",
+  "romaji": "asobu",
+  "english": "to play",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0617",
+  "japanese": "ゆうびんきょく",
+  "romaji": "yuubinkyoku",
+  "english": "post office",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0618",
+  "japanese": "ゆうはん",
+  "romaji": "yuuhan",
+  "english": "dinner",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0619",
+  "japanese": "ゆうがた",
+  "romaji": "yuugata",
+  "english": "evening",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0620",
+  "japanese": "ようふく",
+  "romaji": "youfuku",
+  "english": "western-style clothes",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0621",
+  "japanese": "はがき",
+  "romaji": "hagaki",
+  "english": "postcard",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0622",
+  "japanese": "ほしい",
+  "romaji": "hoshii",
+  "english": "want",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0623",
+  "japanese": "くる",
+  "romaji": "kuru",
+  "english": "to come",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0624",
+  "japanese": "らいげつ",
+  "romaji": "raigetsu",
+  "english": "next month",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0625",
+  "japanese": "らいしゅう",
+  "romaji": "raishuu",
+  "english": "next week",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0626",
+  "japanese": "らいねん",
+  "romaji": "rainen",
+  "english": "next year",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0627",
+  "japanese": "たのむ",
+  "romaji": "tanomu",
+  "english": "to ask",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0628",
+  "japanese": "たまご",
+  "romaji": "tamago",
+  "english": "egg",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0629",
+  "japanese": "たつ",
+  "romaji": "tatsu",
+  "english": "to stand",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0630",
+  "japanese": "りゅうがくせい",
+  "romaji": "ryuugakusei",
+  "english": "overseas student",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0631",
+  "japanese": "りょこう",
+  "romaji": "ryokou",
+  "english": "travel",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0632",
+  "japanese": "りょうしん",
+  "romaji": "ryoushin",
+  "english": "both parents",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0633",
+  "japanese": "りょうり",
+  "romaji": "ryouri",
+  "english": "cuisine",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0634",
+  "japanese": "すずしい",
+  "romaji": "suzushii",
+  "english": "refreshing",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0635",
+  "japanese": "みどり",
+  "romaji": "midori",
+  "english": "green",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0636",
+  "japanese": "となり",
+  "romaji": "tonari",
+  "english": "next door to",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0637",
+  "japanese": "つめたい",
+  "romaji": "tsumetai",
+  "english": "cold to the touch",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0638",
+  "japanese": "れいぞうこ",
+  "romaji": "reizouko",
+  "english": "refrigerator",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0639",
+  "japanese": "れい",
+  "romaji": "rei",
+  "english": "zero",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0640",
+  "japanese": "れんしゅうする",
+  "romaji": "renshuusuru",
+  "english": "to practice",
+  "hasImage": false,
+  "guessNoun": false
+ },
+ {
+  "id": "w0641",
+  "japanese": "ろうか",
+  "romaji": "rouka",
+  "english": "corridor",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0642",
+  "japanese": "ろく",
+  "romaji": "roku",
+  "english": "six",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0643",
+  "japanese": "むっつ",
+  "romaji": "muttsu",
+  "english": "six",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0644",
+  "japanese": "むいか",
+  "romaji": "muika",
+  "english": "six days",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0645",
+  "japanese": "はなし",
+  "romaji": "hanashi",
+  "english": "talk",
+  "hasImage": false,
+  "guessNoun": true
+ },
+ {
+  "id": "w0646",
+  "japanese": "はなす",
+  "romaji": "hanasu",
+  "english": "to speak",
+  "hasImage": false,
+  "guessNoun": false
+ }
+]
