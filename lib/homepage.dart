@@ -134,7 +134,7 @@ Widget quizCategoryCard(
                     SizedBox(height: 2),
 
                     Text(
-                      isActive? 'description' : 'Coming soon',
+                      isActive? description : 'Coming soon',
                       style: GoogleFonts.zenMaruGothic(
                         fontSize: 14,
                         color: Color(0xFF6B5F6E),
