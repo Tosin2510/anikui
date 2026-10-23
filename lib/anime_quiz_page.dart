@@ -126,134 +126,136 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
     return Scaffold(
       backgroundColor: Color(0xFFF8DDE2),
       body: SafeArea(
-        child: Padding(
-            padding: EdgeInsets.fromLTRB(20, 8, 20, 24),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+        child: SingleChildScrollView(
+          child: Padding(
+              padding: EdgeInsets.fromLTRB(20, 8, 20, 24),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
 
-              children: [
-                Row(
-                  children: [
-                    IconButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                      icon: Icon(Icons.arrow_back, color: Color(0xFF2B2430)),
-                    ),
-                    SizedBox(width: 6),
-                    Expanded(child: Row(children: space)),
-                  ],),
-
-                  SizedBox(height: 18,),
-
+                children: [
                   Row(
                     children: [
-                      Container(
-                      width: 46,
-                      height: 46,
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                        color: Color(0xFFC23B3B),
-                        borderRadius: BorderRadius.circular(6),
+                      IconButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                        },
+                        icon: Icon(Icons.arrow_back, color: Color(0xFF2B2430)),
                       ),
+                      SizedBox(width: 6),
+                      Expanded(child: Row(children: space)),
+                    ],),
 
-                      child: Text(
-                         '漫',
-                        style: GoogleFonts.shipporiMincho(
-                          fontSize: 26,
-                          fontWeight: FontWeight.w800,
-                          color: Color(0xFFF8DDE2),
+                    SizedBox(height: 18,),
+
+                    Row(
+                      children: [
+                        Container(
+                        width: 46,
+                        height: 46,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: Color(0xFFC23B3B),
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+
+                        child: Text(
+                          '漫',
+                          style: GoogleFonts.shipporiMincho(
+                            fontSize: 26,
+                            fontWeight: FontWeight.w800,
+                            color: Color(0xFFF8DDE2),
+                          )
                         )
-                       )
+                        ),
+
+                        SizedBox(width: 12,),
+
+                        Text(
+                          'Score: $score',
+                          style: GoogleFonts.zenMaruGothic(
+                          fontSize: 17,
+                          color: Color(0xFF6B5F6E),
+                        ),
+                        )
+                      ]
+                    ),
+
+                    SizedBox(height: 18,),
+
+                    Text(
+                      'Which anime is this?',
+                      style: GoogleFonts.shipporiMincho(
+                        fontSize: 32,
+                        fontWeight: FontWeight.w800,
+                        color: Color(0xFF2B2430),
                       ),
+                    ),
 
-                      SizedBox(width: 12,),
+                    SizedBox(height: 20,),
 
-                      Text(
-                        'Score: $score',
-                        style: GoogleFonts.zenMaruGothic(
-                        fontSize: 17,
-                        color: Color(0xFF6B5F6E),
-                      ),
-                      )
-                    ]
-                  ),
+                    Container(
+                      width: double.infinity,
+                      height: 200,
+                      padding: EdgeInsets.all(6),
+                      decoration: BoxDecoration(
+                        color: Color(0xFFFFF5F7),
+                      border: Border.all(color: Color(0xFF2B2430), width: 2),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0xFF2B2430),
+                          offset: Offset(4, 4),
+                          blurRadius: 0,
+                        ),
+                        
+                      ]
+                    ),
 
-                  SizedBox(height: 18,),
+                    child: Image.network(
+                      anime.imageUrl,
+                      fit: BoxFit.contain,
 
-                  Text(
-                    'Which anime is this?',
-                    style: GoogleFonts.shipporiMincho(
-                      fontSize: 32,
-                      fontWeight: FontWeight.w800,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) {
+                          return child;
+                        }
+
+                        return Center(
+                          child: CircularProgressIndicator(
+                            color: Color(0xFF2B2430),
+                          ),
+                        );
+                      },
+
+                      errorBuilder: (context, error, value) {
+                        return Center(
+                          child: Text(
+                            '絵',
+                            style: GoogleFonts.shipporiMincho(
+                              fontSize: 64,
+                              color: Color(0xFFEFC4CD),
+                            ),
+                          )
+                        );
+                      }
+                    )
+                    ),
+
+                    SizedBox(height: 26,),
+
+                    buildOptionButtons(0),
+                    buildOptionButtons(1),
+                    buildOptionButtons(2),
+
+                    Text(
+                      errorMessage,
+                      style: GoogleFonts.zenMaruGothic(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w700,
                       color: Color(0xFF2B2430),
                     ),
-                  ),
-
-                  SizedBox(height: 20,),
-
-                  Container(
-                    width: double.infinity,
-                    height: 260,
-                    padding: EdgeInsets.all(6),
-                    decoration: BoxDecoration(
-                      color: Color(0xFFFFF5F7),
-                    border: Border.all(color: Color(0xFF2B2430), width: 2),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Color(0xFF2B2430),
-                        offset: Offset(4, 4),
-                        blurRadius: 0,
-                      ),
-                      
-                    ]
-                  ),
-
-                  child: Image.network(
-                    anime.imageUrl,
-                    fit: BoxFit.contain,
-
-                    loadingBuilder: (context, child, loadingProgress) {
-                      if (loadingProgress == null) {
-                        return child;
-                      }
-
-                      return Center(
-                        child: CircularProgressIndicator(
-                          color: Color(0xFF2B2430),
-                        ),
-                      );
-                    },
-
-                    errorBuilder: (context, error, value) {
-                      return Center(
-                        child: Text(
-                          '絵',
-                          style: GoogleFonts.shipporiMincho(
-                            fontSize: 64,
-                            color: Color(0xFFEFC4CD),
-                          ),
-                        )
-                      );
-                    }
-                  )
-                  ),
-
-                  SizedBox(height: 26,),
-
-                  buildOptionButtons(0),
-                  buildOptionButtons(1),
-                  buildOptionButtons(2),
-
-                  Text(
-                    errorMessage,
-                    style: GoogleFonts.zenMaruGothic(
-                    fontSize: 17,
-                    fontWeight: FontWeight.w700,
-                    color: Color(0xFF2B2430),
-                  ),
-                  )
-              ]
+                    )
+                ]
+              )
             )
         )
       ),
