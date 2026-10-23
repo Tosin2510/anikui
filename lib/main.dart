@@ -1,7 +1,10 @@
 import 'package:anikui/landing_page.dart';
+import 'package:anikui/words.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await loadWords();
   runApp(const MyApp());
 }
 
