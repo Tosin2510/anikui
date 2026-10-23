@@ -1,9 +1,46 @@
+import 'dart:async';
+
 import 'package:anikui/quiz_page.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+
+  bool isOnline = false;
+  StreamSubscription<List<ConnectivityResult>>? sub;
+
+  @override
+  void initState() {
+    super.initState();
+    checkIfDeviceHasInternet();
+    sub = Connectivity().onConnectivityChanged.listen((results) {
+      setState(() {
+        isOnline = !results.contains(ConnectivityResult.none);
+      });
+    });
+  }
+
+    @override
+    void dispose() {
+      sub?.cancel();
+      super.dispose();
+    }
+
+  void checkIfDeviceHasInternet() async {
+     List<ConnectivityResult> results = await Connectivity().checkConnectivity();
+    if (!mounted) return;
+    setState(() {
+      isOnline = !results.contains(ConnectivityResult.none);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +74,7 @@ class HomePage extends StatelessWidget {
                 SizedBox(height: 28,),
 
                 quizCategoryCard(context, '言', 'Vocabulary', 'How do you say it in Japanese?', true),
-                quizCategoryCard(context, '漫', 'Anime', 'Questions about anime', false),
+                quizCategoryCard(context, '漫', 'Anime', 'Questions about anime', isOnline, inactiveText: 'Connect to the internet to play'),
                 quizCategoryCard(context, '食', 'Food', 'Name the Japanese dish', false),
                 quizCategoryCard(context, '文', 'Culture', 'Japanese customs and traditions', false),
               ]
@@ -55,8 +92,9 @@ Widget quizCategoryCard(
   String japaneseCharacter,
   String englishTitle,
   String description,
-  bool isActive,
-) {
+  bool isActive, {
+  String? inactiveText,
+  }) {
   return GestureDetector(
     onTap: () {
       if (isActive) {
@@ -69,7 +107,7 @@ Widget quizCategoryCard(
         );
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('$englishTitle is coming soon')),
+          SnackBar(content: Text(inactiveText ?? '$englishTitle is coming soon')),
         );
       }
     },
