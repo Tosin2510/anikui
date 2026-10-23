@@ -19,28 +19,55 @@ List<AnimePart> availableAnime = [];
 Future<void> loadAnimeParts() async {
   availableAnime = [];
 
-  for (int page = 1; page <=2; page++) {
+  String query = '''
+  query {
+    Page(page: 1, perPage: 50) {
+      media(type: ANIME, sort: POPULARITY_DESC, isAdult: false) {
+        id
+        title {
+          romaji
+          english
+        }
+        coverImage {
+          large
+        }
+      }
+    }
+  }
+  ''';
 
-    Uri url = Uri.parse('https://api.jikan.moe/v4/top/anime?page=$page');
-    http.Response response = await http.get(url);
+  Uri url = Uri.parse('https://graphql.anilist.co');
+  http.Response response;
 
-    if (response.statusCode != 200) {
-      break;
+  try {
+    response = await http.post(
+      url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({'query': query}),
+    );
+  } catch (error) {
+    return;
+  }
+
+  if (response.statusCode != 200) {
+    return;
+  }
+
+  Map<String, dynamic> body = jsonDecode(response.body);
+  List<dynamic> data = body['data']['Page']['media'];
+
+  for (var val in data) {
+    String title = val['title']['romaji'];
+    if (val['title']['english'] != null) {
+      title = val['title']['english'];
     }
 
-     Map<String, dynamic> body = jsonDecode(response.body);
-     List<dynamic> data = body['data'];
-
-     for (var val in data) {
-      availableAnime.add(
-        AnimePart(
-          id: val['mal_id'].toString(),
-          title: val['title'],
-          imageUrl: val['images']['jpg']['image_url'],
-        )
-      );
-     }
-
-     await Future.delayed(Duration(seconds: 1));
+    availableAnime.add(
+      AnimePart(
+        id: val['id'].toString(),
+        title: title,
+        imageUrl: val['coverImage']['large'],
+      ),
+    );
   }
 }
