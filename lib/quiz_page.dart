@@ -29,7 +29,14 @@ class _QuizPageState extends State<QuizPage> {
     @override
     void initState() {
       super.initState();
-      questions = List.from(allAvailableWords);
+      List<Word> wordsWithPictures = allAvailableWords.where((w) => w.hasImage).toList();
+      List<Word> wordsWithoutPictures = allAvailableWords.where((w) => !w.hasImage).toList();
+      wordsWithPictures.shuffle();
+      wordsWithoutPictures.shuffle();
+
+      questions = [];
+      questions.addAll(wordsWithPictures.take(3));
+      questions.addAll(wordsWithoutPictures.take(totalQuestions - questions.length));
       questions.shuffle();
       setUpQuestion();
     }
