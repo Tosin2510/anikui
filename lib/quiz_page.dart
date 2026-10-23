@@ -16,6 +16,9 @@ class _QuizPageState extends State<QuizPage> {
   int currentQuestion = 0;
   int totalQuestions = 5;
 
+  double totalSeconds = 60;
+  double timeLeft = 60;
+
   List<Word> optionList = [];
   int indexOfCorrectWord = 0;
   int? indexOfPickedAnswer;
@@ -24,7 +27,7 @@ class _QuizPageState extends State<QuizPage> {
   List<Word> questions = [];
 
   Timer? timer;
-  List<Widget> blocks = [];
+  List<Widget> space = [];
 
     @override
     void initState() {
@@ -39,6 +42,7 @@ class _QuizPageState extends State<QuizPage> {
       questions.addAll(wordsWithoutPictures.take(totalQuestions - questions.length));
       questions.shuffle();
       setUpQuestion();
+      startTimer();
     }
 
     @override
@@ -72,6 +76,18 @@ class _QuizPageState extends State<QuizPage> {
       hasAnsweredThatQuestion = false;
     }
 
+    void startTimer() {
+      timer = Timer.periodic(Duration(milliseconds: 100), (time) {
+        setState(() {
+            timeLeft = timeLeft - 0.1;
+          if (timeLeft <= 0) {
+            timeLeft = 0;
+            time.cancel();
+          }
+        });
+      });
+    }
+
     void pickAnswerToQuestion(int val) {
       if (hasAnsweredThatQuestion) return;
       setState(() {
@@ -92,6 +108,25 @@ class _QuizPageState extends State<QuizPage> {
     Word word = questions[currentQuestion];
 
     String message = '';
+    space = [];
+    int spaceFilled = (timeLeft / (totalSeconds / 10)).ceil();
+
+    for (int val = 0; val < 10; val++) {
+      bool isFilled = val < spaceFilled;
+      space.add(
+        Expanded(
+          child: Container(
+            height: 12,
+            margin: EdgeInsets.symmetric(horizontal: 2),
+            decoration: BoxDecoration(
+              color: isFilled ? (spaceFilled <= 2 ? Color(0xFFC23B3B) : Color(0xFF2B2430)) : Colors.transparent,
+              border: Border.all(color: Color(0xFF2B2430), width: 1.5),
+            ),
+          ),
+        ),
+      );
+    }
+
     if (hasAnsweredThatQuestion) {
       if (indexOfPickedAnswer == indexOfCorrectWord) {
         message = 'Correct!';
@@ -118,7 +153,7 @@ class _QuizPageState extends State<QuizPage> {
                       icon: Icon(Icons.arrow_back, color: Color(0xFF2B2430)),
                     ),
                     SizedBox(width: 6),
-                    Expanded(child: Row(children: blocks)),
+                    Expanded(child: Row(children: space)),
                   ],
                 ),
 
