@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(height: 28,),
 
                 quizCategoryCard(context, '言', 'Vocabulary', 'How do you say it in Japanese?', true),
-                quizCategoryCard(context, '漫', 'Anime', 'Questions about anime', isOnline, inactiveText: 'Connect to the internet to play'),
+                quizCategoryCard(context, '漫', 'Anime', 'Questions about anime', isOnline, inactiveText: 'Connect to the internet to play', isAnime: true),
                 quizCategoryCard(context, '食', 'Food', 'Name the Japanese dish', false),
                 quizCategoryCard(context, '文', 'Culture', 'Japanese customs and traditions', false),
               ]
