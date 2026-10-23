@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:anikui/anime_part.dart';
+import 'package:anikui/anime_quiz_page.dart';
 import 'package:anikui/quiz_page.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
@@ -94,17 +96,34 @@ Widget quizCategoryCard(
   String description,
   bool isActive, {
   String? inactiveText,
+  bool isAnime = false,
   }) {
   return GestureDetector(
-    onTap: () {
+    onTap: () async {
       if (isActive) {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) {
-            return QuizPage();
+        if (isAnime) {
+          await loadAnimeParts();
+          if (!context.mounted) return;
+          if (availableAnime.length < 3) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('Could not load anime. Try again')),
+            );
+            return;
           }
-          )
-        );
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) {
+              return AnimeQuizPage();
+            })
+          );
+        } else {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) {
+              return QuizPage();
+            })
+          );
+        }
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(inactiveText ?? '$englishTitle is coming soon')),
