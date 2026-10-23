@@ -1,3 +1,4 @@
+import 'package:anikui/anime_part.dart';
 import 'package:anikui/landing_page.dart';
 import 'package:anikui/words.dart';
 import 'package:flutter/material.dart';
@@ -5,6 +6,7 @@ import 'package:flutter/material.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await loadWords();
+  await loadAnimeParts();
   runApp(const MyApp());
 }
 
