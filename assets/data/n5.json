@@ -1116,7 +1116,7 @@
   "japanese": "バター",
   "romaji": "bataa",
   "english": "butter",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1124,7 +1124,7 @@
   "japanese": "パン",
   "romaji": "pan",
   "english": "bread",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1132,7 +1132,7 @@
   "japanese": "ハンカチ",
   "romaji": "hankachi",
   "english": "handkerchief",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1140,7 +1140,7 @@
   "japanese": "フィルム",
   "romaji": "firumu",
   "english": "roll of film",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1148,7 +1148,7 @@
   "japanese": "プール",
   "romaji": "puuru",
   "english": "swimming pool",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1156,7 +1156,7 @@
   "japanese": "フォーク",
   "romaji": "fooku",
   "english": "fork",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1164,7 +1164,7 @@
   "japanese": "ふろ",
   "romaji": "furo",
   "english": "bath",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1172,7 +1172,7 @@
   "japanese": "ページ",
   "romaji": "peeji",
   "english": "page",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1180,7 +1180,7 @@
   "japanese": "ベッド",
   "romaji": "beddo",
   "english": "bed",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1188,7 +1188,7 @@
   "japanese": "ペット",
   "romaji": "petto",
   "english": "pet",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1196,7 +1196,7 @@
   "japanese": "ペン",
   "romaji": "pen",
   "english": "pen",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1204,7 +1204,7 @@
   "japanese": "ボールペン",
   "romaji": "boorupen",
   "english": "ball-point pen",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1212,7 +1212,7 @@
   "japanese": "ほか",
   "romaji": "hoka",
   "english": "other",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1220,7 +1220,7 @@
   "japanese": "ポケット",
   "romaji": "poketto",
   "english": "pocket",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1228,7 +1228,7 @@
   "japanese": "ポスト",
   "romaji": "posuto",
   "english": "post",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1236,7 +1236,7 @@
   "japanese": "ボタン",
   "romaji": "botan",
   "english": "button",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1244,7 +1244,7 @@
   "japanese": "ホテル",
   "romaji": "hoteru",
   "english": "hotel",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1252,7 +1252,7 @@
   "japanese": "ほんとう",
   "romaji": "hontou",
   "english": "truth",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1268,7 +1268,7 @@
   "japanese": "また",
   "romaji": "mata",
   "english": "again",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1276,7 +1276,7 @@
   "japanese": "まだ",
   "romaji": "mada",
   "english": "yet",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1284,7 +1284,7 @@
   "japanese": "まっすぐ",
   "romaji": "massugu",
   "english": "straight ahead",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1292,7 +1292,7 @@
   "japanese": "マッチ",
   "romaji": "matchi",
   "english": "match",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1300,7 +1300,7 @@
   "japanese": "みんな",
   "romaji": "minna",
   "english": "everyone",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1308,7 +1308,7 @@
   "japanese": "メートル",
   "romaji": "meetoru",
   "english": "metre",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1316,7 +1316,7 @@
   "japanese": "もう",
   "romaji": "mou",
   "english": "already",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1324,7 +1324,7 @@
   "japanese": "もういちど",
   "romaji": "mouichido",
   "english": "again",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1332,7 +1332,7 @@
   "japanese": "もっと",
   "romaji": "motto",
   "english": "more",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1348,7 +1348,7 @@
   "japanese": "ゆっくりと",
   "romaji": "yukkurito",
   "english": "slowly",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1356,7 +1356,7 @@
   "japanese": "よく",
   "romaji": "yoku",
   "english": "often",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1372,7 +1372,7 @@
   "japanese": "ラジオ",
   "romaji": "rajio",
   "english": "radio",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1380,7 +1380,7 @@
   "japanese": "ラジカセ / ラジオカセット",
   "romaji": "rajikase / rajiokasetto",
   "english": "radio cassette player",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {

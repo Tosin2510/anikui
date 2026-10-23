@@ -14,7 +14,7 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage> {
 
   int currentQuestion = 0;
-  int totalQuestions = 5;
+  int score = 0;
 
   double totalSeconds = 60;
   double timeLeft = 60;
@@ -32,15 +32,21 @@ class _QuizPageState extends State<QuizPage> {
     @override
     void initState() {
       super.initState();
-      List<Word> wordsWithPictures = allAvailableWords.where((w) => w.hasImage).toList();
+           List<Word> wordsWithPictures = allAvailableWords.where((w) => w.hasImage).toList();
       List<Word> wordsWithoutPictures = allAvailableWords.where((w) => !w.hasImage).toList();
       wordsWithPictures.shuffle();
       wordsWithoutPictures.shuffle();
 
       questions = [];
-      questions.addAll(wordsWithPictures.take(3));
-      questions.addAll(wordsWithoutPictures.take(totalQuestions - questions.length));
-      questions.shuffle();
+      int textIndex = 0;
+      for (Word pictureWord in wordsWithPictures) {
+        questions.add(pictureWord);
+        if (textIndex < wordsWithoutPictures.length) {
+          questions.add(wordsWithoutPictures[textIndex]);
+          textIndex = textIndex + 1;
+        }
+      }
+      questions.addAll(wordsWithoutPictures.skip(textIndex));
       setUpQuestion();
       startTimer();
     }
@@ -83,6 +89,7 @@ class _QuizPageState extends State<QuizPage> {
           if (timeLeft <= 0) {
             timeLeft = 0;
             time.cancel();
+            Navigator.pop(context);
           }
         });
       });
@@ -93,6 +100,15 @@ class _QuizPageState extends State<QuizPage> {
       setState(() {
         indexOfPickedAnswer = val;
         hasAnsweredThatQuestion = true;
+        if (val == indexOfCorrectWord) {
+          score = score + 1;
+        }
+      });
+
+      Future.delayed(Duration(seconds: 1), () {
+        if (mounted) {
+          goToNextQuestion();
+        }
       });
     }
 
@@ -183,7 +199,7 @@ class _QuizPageState extends State<QuizPage> {
                     SizedBox(width: 12,),
 
                     Text(
-                      '${currentQuestion + 1} of $totalQuestions',
+                      'Score: $score',
                       style: GoogleFonts.zenMaruGothic(
                         fontSize: 17,
                         color: Color(0xFF6B5F6E),
@@ -270,31 +286,6 @@ class _QuizPageState extends State<QuizPage> {
                     color: Color(0xFF2B2430),
                   ),
                 ),
-
-                SizedBox(height: 12),
-
-                if (hasAnsweredThatQuestion && currentQuestion < totalQuestions - 1)
-                  SizedBox(
-                    width: double.infinity,
-                    height: 50,
-                    child: ElevatedButton(
-                      onPressed: goToNextQuestion,
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xFF2B2430),
-                        foregroundColor: Color(0xFFF8DDE2),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(6),
-                        ),
-                      ),
-                      child: Text(
-                        'Next',
-                        style: GoogleFonts.zenMaruGothic(
-                          fontSize: 18,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                    ),
-                  ),
               ]
             )
           )
