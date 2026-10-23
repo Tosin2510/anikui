@@ -6,7 +6,13 @@ import 'package:flutter/material.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await loadWords();
-  await loadAnimeParts();
+    await loadAnimeParts();
+    
+  debugPrint(availableAnime.length.toString());
+  if (availableAnime.isNotEmpty) {
+    debugPrint(availableAnime[0].title);
+    debugPrint(availableAnime[0].imageUrl);
+  }
   runApp(const MyApp());
 }
 
