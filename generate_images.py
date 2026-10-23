@@ -17,6 +17,7 @@ skipWords = [
   "well…", "well then…", "however", "and", "but", "in that situation", "with that...", "used for comparison.", "et cetera", "to be", "to do",
   "to become", "to differ", "to be able to", "to be understood", "to take time or money", "to know","zero", "hundred", "thousand", "ten thousand", 
   "twenty days", "20 years old",
+  "there", "here", "this", "that", "now",
 ]
 
 promptOverrides = {
@@ -77,7 +78,7 @@ for word in words:
 
 wordsToHaveImages = []
 for word in words:
-  if word["english"].lower() not in skipWords:
+  if word["english"].lower() not in skipWords and word["guessNoun"]:
     wordsToHaveImages.append(word)
 
 if len(sys.argv) > 1 and sys.argv[1] == "list":

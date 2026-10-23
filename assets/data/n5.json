@@ -4,7 +4,7 @@
   "japanese": "あさって",
   "romaji": "asatte",
   "english": "day after tomorrow",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -12,7 +12,7 @@
   "japanese": "あそこ",
   "romaji": "asoko",
   "english": "over there",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -20,7 +20,7 @@
   "japanese": "あちら",
   "romaji": "achira",
   "english": "there",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -28,7 +28,7 @@
   "japanese": "あっち",
   "romaji": "atchi",
   "english": "over there",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -36,7 +36,7 @@
   "japanese": "あなた",
   "romaji": "anata",
   "english": "you",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -44,7 +44,7 @@
   "japanese": "あの",
   "romaji": "ano",
   "english": "that over there",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -52,7 +52,7 @@
   "japanese": "アパート",
   "romaji": "apaato",
   "english": "apartment",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -68,7 +68,7 @@
   "japanese": "あまり",
   "romaji": "amari",
   "english": "not very",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -100,7 +100,7 @@
   "japanese": "いいえ",
   "romaji": "iie",
   "english": "no",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -108,7 +108,7 @@
   "japanese": "いかが",
   "romaji": "ikaga",
   "english": "how",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -116,7 +116,7 @@
   "japanese": "いくつ",
   "romaji": "ikutsu",
   "english": "how many?",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -124,7 +124,7 @@
   "japanese": "いくら",
   "romaji": "ikura",
   "english": "how much?",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -132,7 +132,7 @@
   "japanese": "いす",
   "romaji": "isu",
   "english": "chair",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -140,7 +140,7 @@
   "japanese": "いちばん",
   "romaji": "ichiban",
   "english": "best",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -148,7 +148,7 @@
   "japanese": "いつ",
   "romaji": "itsu",
   "english": "when",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -156,7 +156,7 @@
   "japanese": "いつも",
   "romaji": "itsumo",
   "english": "always",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -164,7 +164,7 @@
   "japanese": "いろいろ",
   "romaji": "iroiro",
   "english": "various",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -172,7 +172,7 @@
   "japanese": "ええ",
   "romaji": "ee",
   "english": "yes",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -180,7 +180,7 @@
   "japanese": "エレベーター",
   "romaji": "erebeetaa",
   "english": "elevator",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -196,7 +196,7 @@
   "japanese": "おなか",
   "romaji": "onaka",
   "english": "stomach",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -204,7 +204,7 @@
   "japanese": "おばあさん",
   "romaji": "obaasan",
   "english": "grandmother",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -220,7 +220,7 @@
   "japanese": "おかし",
   "romaji": "okashi",
   "english": "sweets",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -228,7 +228,7 @@
   "japanese": "おかね",
   "romaji": "okane",
   "english": "money",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -236,7 +236,7 @@
   "japanese": "おにいさん",
   "romaji": "oniisan",
   "english": "older brother",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -244,7 +244,7 @@
   "japanese": "おさら",
   "romaji": "osara",
   "english": "plate",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -252,7 +252,7 @@
   "japanese": "おねえさん",
   "romaji": "oneesan",
   "english": "older sister",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -268,7 +268,7 @@
   "japanese": "おさけ",
   "romaji": "osake",
   "english": "alcohol",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -276,7 +276,7 @@
   "japanese": "おちゃ",
   "romaji": "ocha",
   "english": "green tea",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -284,7 +284,7 @@
   "japanese": "おとうさん",
   "romaji": "otousan",
   "english": "father",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -292,7 +292,7 @@
   "japanese": "おふろ",
   "romaji": "ofuro",
   "english": "bath",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -300,7 +300,7 @@
   "japanese": "おべんとう",
   "romaji": "obentou",
   "english": "boxed lunch",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -308,7 +308,7 @@
   "japanese": "おかあさん",
   "romaji": "okaasan",
   "english": "mother",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -324,7 +324,7 @@
   "japanese": "かぎ",
   "romaji": "kagi",
   "english": "key",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -340,7 +340,7 @@
   "japanese": "カップ",
   "romaji": "kappu",
   "english": "cup",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -348,7 +348,7 @@
   "japanese": "かばん",
   "romaji": "kaban",
   "english": "bag",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -356,7 +356,7 @@
   "japanese": "カメラ",
   "romaji": "kamera",
   "english": "camera",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -364,7 +364,7 @@
   "japanese": "カレー",
   "romaji": "karee",
   "english": "curry",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -372,7 +372,7 @@
   "japanese": "カレンダー",
   "romaji": "karendaa",
   "english": "calendar",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -388,7 +388,7 @@
   "japanese": "ギター",
   "romaji": "gitaa",
   "english": "guitar",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -404,7 +404,7 @@
   "japanese": "キロ/キログラム",
   "romaji": "kiro/kiroguramu",
   "english": "kilogram",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -412,7 +412,7 @@
   "japanese": "キロ/キロメートル",
   "romaji": "kiro/kiromeetoru",
   "english": "kilometre",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -428,7 +428,7 @@
   "japanese": "クラス",
   "romaji": "kurasu",
   "english": "class",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -436,7 +436,7 @@
   "japanese": "グラム",
   "romaji": "guramu",
   "english": "gram",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -444,7 +444,7 @@
   "japanese": "コート",
   "romaji": "kooto",
   "english": "coat",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -452,7 +452,7 @@
   "japanese": "コーヒー",
   "romaji": "koohii",
   "english": "coffee",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -484,7 +484,7 @@
   "japanese": "コップ",
   "romaji": "koppu",
   "english": "a glass",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -516,7 +516,7 @@
   "japanese": "こんな",
   "romaji": "konna",
   "english": "such",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -532,7 +532,7 @@
   "japanese": "さらいねん",
   "romaji": "sarainen",
   "english": "year after next",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -556,7 +556,7 @@
   "japanese": "シャツ",
   "romaji": "shatsu",
   "english": "shirt",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -564,7 +564,7 @@
   "japanese": "シャワー",
   "romaji": "shawaa",
   "english": "shower",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -572,7 +572,7 @@
   "japanese": "しょうゆ",
   "romaji": "shouyu",
   "english": "soy sauce",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -580,7 +580,7 @@
   "japanese": "スカート",
   "romaji": "sukaato",
   "english": "skirt",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -588,7 +588,7 @@
   "japanese": "すぐに",
   "romaji": "suguni",
   "english": "instantly",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -596,7 +596,7 @@
   "japanese": "ストーブ",
   "romaji": "sutoobu",
   "english": "heater",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -604,7 +604,7 @@
   "japanese": "スプーン",
   "romaji": "supuun",
   "english": "spoon",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -612,7 +612,7 @@
   "japanese": "スポーツ",
   "romaji": "supootsu",
   "english": "sport",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -620,7 +620,7 @@
   "japanese": "ズボン",
   "romaji": "zubon",
   "english": "trousers",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -628,7 +628,7 @@
   "japanese": "スリッパ",
   "romaji": "surippa",
   "english": "slippers",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -644,7 +644,7 @@
   "japanese": "セーター",
   "romaji": "seetaa",
   "english": "sweater",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -652,7 +652,7 @@
   "japanese": "せっけん",
   "romaji": "sekken",
   "english": "economy",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -676,7 +676,7 @@
   "japanese": "そこ",
   "romaji": "soko",
   "english": "that place",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -684,7 +684,7 @@
   "japanese": "そちら",
   "romaji": "sochira",
   "english": "over there",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -692,7 +692,7 @@
   "japanese": "そっち",
   "romaji": "sotchi",
   "english": "over there",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -708,7 +708,7 @@
   "japanese": "そば",
   "romaji": "soba",
   "english": "near",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -724,7 +724,7 @@
   "japanese": "それから",
   "romaji": "sorekara",
   "english": "after that",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -740,7 +740,7 @@
   "japanese": "たいへん",
   "romaji": "taihen",
   "english": "very",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -748,7 +748,7 @@
   "japanese": "たくさん",
   "romaji": "takusan",
   "english": "many",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -756,7 +756,7 @@
   "japanese": "タクシー",
   "romaji": "takushii",
   "english": "taxi",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -764,7 +764,7 @@
   "japanese": "たて",
   "romaji": "tate",
   "english": "length",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -772,7 +772,7 @@
   "japanese": "たばこ",
   "romaji": "tabako",
   "english": "tobacco",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -780,7 +780,7 @@
   "japanese": "たぶん",
   "romaji": "tabun",
   "english": "probably",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -788,7 +788,7 @@
   "japanese": "だんだん",
   "romaji": "dandan",
   "english": "gradually",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -796,7 +796,7 @@
   "japanese": "ちゃわん",
   "romaji": "chawan",
   "english": "rice bowl",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -804,7 +804,7 @@
   "japanese": "ちょうど",
   "romaji": "choudo",
   "english": "exactly",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -812,7 +812,7 @@
   "japanese": "ちょっと",
   "romaji": "chotto",
   "english": "somewhat",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -836,7 +836,7 @@
   "japanese": "テープ",
   "romaji": "teepu",
   "english": "tape",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -844,7 +844,7 @@
   "japanese": "テーブル",
   "romaji": "teeburu",
   "english": "table",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -852,7 +852,7 @@
   "japanese": "テープレコーダー",
   "romaji": "teepurekoodaa",
   "english": "tape recorder",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -868,7 +868,7 @@
   "japanese": "テスト",
   "romaji": "tesuto",
   "english": "test",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -884,7 +884,7 @@
   "japanese": "デパート",
   "romaji": "depaato",
   "english": "department store",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -900,7 +900,7 @@
   "japanese": "テレビ",
   "romaji": "terebi",
   "english": "television",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -908,7 +908,7 @@
   "japanese": "ドア",
   "romaji": "doa",
   "english": "Western style door",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -916,7 +916,7 @@
   "japanese": "トイレ",
   "romaji": "toire",
   "english": "toilet",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -924,7 +924,7 @@
   "japanese": "どう",
   "romaji": "dou",
   "english": "how",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -932,7 +932,7 @@
   "japanese": "どうして",
   "romaji": "doushite",
   "english": "for what reason",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -940,7 +940,7 @@
   "japanese": "どうぞ",
   "romaji": "douzo",
   "english": "please",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -948,7 +948,7 @@
   "japanese": "どうも",
   "romaji": "doumo",
   "english": "thanks",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -956,7 +956,7 @@
   "japanese": "どこ",
   "romaji": "doko",
   "english": "where",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -964,7 +964,7 @@
   "japanese": "どちら",
   "romaji": "dochira",
   "english": "which of two",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -972,7 +972,7 @@
   "japanese": "どっち",
   "romaji": "dotchi",
   "english": "which",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -980,7 +980,7 @@
   "japanese": "とても",
   "romaji": "totemo",
   "english": "very",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -988,7 +988,7 @@
   "japanese": "どなた",
   "romaji": "donata",
   "english": "who",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -996,7 +996,7 @@
   "japanese": "どの",
   "romaji": "dono",
   "english": "which",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1004,7 +1004,7 @@
   "japanese": "とりにく",
   "romaji": "toriniku",
   "english": "chicken meat",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1012,7 +1012,7 @@
   "japanese": "どれ",
   "romaji": "dore",
   "english": "which",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1020,7 +1020,7 @@
   "japanese": "ナイフ",
   "romaji": "naifu",
   "english": "knife",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1028,7 +1028,7 @@
   "japanese": "なぜ",
   "romaji": "naze",
   "english": "why",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1052,7 +1052,7 @@
   "japanese": "ニュース",
   "romaji": "nyuusu",
   "english": "news",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1060,7 +1060,7 @@
   "japanese": "ネクタイ",
   "romaji": "nekutai",
   "english": "tie",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1068,7 +1068,7 @@
   "japanese": "ノート",
   "romaji": "nooto",
   "english": "notebook",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1076,7 +1076,7 @@
   "japanese": "パーティー",
   "romaji": "paateii",
   "english": "party",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1100,7 +1100,7 @@
   "japanese": "はし",
   "romaji": "hashi",
   "english": "chopsticks",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
@@ -1108,7 +1108,7 @@
   "japanese": "バス",
   "romaji": "basu",
   "english": "bus",
-  "hasImage": false,
+  "hasImage": true,
   "guessNoun": true
  },
  {
