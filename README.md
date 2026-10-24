@@ -6,7 +6,7 @@ I built it because I just felt like...
 
 ## Download
 
-Grab the APK from the [ReleasePage]([https://anilist.co](https://github.com/Tosin2510/anikui/releases/tag/v1.0.0)), and install it on your Android phone. 
+Grab the APK from the [ReleasePage]([https://github.com/Tosin2510/anikui/releases/tag/v1.0.0]), and install it on your Android phone. 
 Not sure which one to pick? download `app-arm64-v8a-release.apk`, it works on almost all modern phones. Also, allow your phone to install from unknown sources.
 
 ## How it works
