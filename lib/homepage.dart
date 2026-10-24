@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:anikui/anime_part.dart';
 import 'package:anikui/anime_quiz_page.dart';
 import 'package:anikui/culture_quiz_screen.dart';
+import 'package:anikui/food_quiz.dart';
 import 'package:anikui/quiz_page.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
@@ -78,7 +79,7 @@ class _HomePageState extends State<HomePage> {
 
                 quizCategoryCard(context, '言', 'Vocabulary', 'How do you say it in Japanese?', true),
                 quizCategoryCard(context, '漫', 'Anime', 'Questions about anime', isOnline, inactiveText: 'Connect to the internet to play', isAnime: true),
-                quizCategoryCard(context, '食', 'Food', 'Name the Japanese dish', false),
+                quizCategoryCard(context, '食', 'Food', 'Name the Japanese dish', true, isFood: true, ),
                 quizCategoryCard(context, '文', 'Culture', 'Japanese customs and traditions', true, isCulture: true),
               ]
             )
@@ -99,6 +100,7 @@ Widget quizCategoryCard(
   String? inactiveText,
   bool isAnime = false,
   bool isCulture = false,
+  bool isFood = false,
   }) {
   return GestureDetector(
     onTap: () async {
@@ -125,7 +127,16 @@ Widget quizCategoryCard(
               return CultureQuizPage();
             })
           );
-        } else {
+
+        } else if (isFood) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) {
+              return FoodQuiz();
+            })
+          );
+
+        }  else {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) {
