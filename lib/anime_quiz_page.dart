@@ -1,8 +1,27 @@
 import 'dart:async';
 
+import 'package:anikui/anime_character_part.dart';
 import 'package:anikui/anime_part.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+class AnimeQuestion {
+  String type;
+  String group;
+  String imageUrl;
+  String answer;
+  String animeTitle;
+  String description;
+
+  AnimeQuestion({
+    required this.type,
+    required this.group,
+    required this.imageUrl,
+    required this.answer,
+    required this.animeTitle,
+    required this.description,
+  });
+}
 
 class AnimeQuizPage extends StatefulWidget {
   const AnimeQuizPage({super.key});
@@ -13,9 +32,9 @@ class AnimeQuizPage extends StatefulWidget {
 
 class _AnimeQuizPageState extends State<AnimeQuizPage> {
 
-  List<AnimePart> questions = [];
-  List<AnimePart> optionList = [];
-   int indexOfCorrectAnime = 0;
+  List<AnimeQuestion> questions = [];
+  List<String> optionList = [];
+  int indexOfCorrectAnime = 0;
   int? indexOfPickedAnswer;
   bool hasAnsweredThatQuestion = false;
 
@@ -31,8 +50,7 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
   @override
   void initState() {
     super.initState();
-    questions = List.from(availableAnime);
-    questions.shuffle();
+    buildQuestions();
     setUpQuestion();
     startTimer();
   }
@@ -43,22 +61,138 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
     super.dispose();
   }
 
-  void setUpQuestion() {
-    AnimePart correctAnime = questions[currentQuestion];
+  void buildQuestions() {
+    List<AnimeQuestion> animeQuestions = [];
+    List<AnimeQuestion> characterQuestions = [];
+    List<AnimeQuestion> descriptionQuestions = [];
+    List<AnimeQuestion> episodeQuestions = [];
 
-    List<AnimePart> otherAnime = [];
+    if (availableAnime.length >= 3) {
+      for (AnimePart val in availableAnime) {
+        animeQuestions.add(
+          AnimeQuestion(
+            type: 'anime',
+            group: 'title',
+            imageUrl: val.imageUrl,
+            answer: val.title,
+            animeTitle: val.title,
+            description: '',
+          ),
+        );
 
-    for (AnimePart val in availableAnime) {
-      if (val.id == correctAnime.id) continue;
-      otherAnime.add(val);
+        if (val.description.length >= 60) {
+          descriptionQuestions.add(
+            AnimeQuestion(
+              type: 'description',
+              group: 'title',
+              imageUrl: val.imageUrl,
+              answer: val.title,
+              animeTitle: val.title,
+              description: val.description,
+            ),
+          );
+        }
+
+        if (val.episodes > 0) {
+          episodeQuestions.add(
+            AnimeQuestion(
+              type: 'episodes',
+              group: 'episodes',
+              imageUrl: val.imageUrl,
+              answer: val.episodes.toString(),
+              animeTitle: val.title,
+              description: '',
+            ),
+          );
+        }
+      }
     }
 
-    otherAnime.shuffle();
+    List<String> differentEpisodeNumbers = [];
+    for (AnimeQuestion val in episodeQuestions) {
+      if (!differentEpisodeNumbers.contains(val.answer)) {
+        differentEpisodeNumbers.add(val.answer);
+      }
+    }
+    if (differentEpisodeNumbers.length < 3) {
+      episodeQuestions = [];
+    }
 
-    optionList = [correctAnime, otherAnime[0], otherAnime[1]];
+    if (availableCharacters.length >= 3) {
+      for (AnimeCharacterPart val in availableCharacters) {
+        characterQuestions.add(
+          AnimeQuestion(
+            type: 'character',
+            group: 'character',
+            imageUrl: val.imageUrl,
+            answer: val.name,
+            animeTitle: val.animeTitle,
+            description: '',
+          ),
+        );
+      }
+    }
+
+    List<List<AnimeQuestion>> groups = [
+      animeQuestions,
+      characterQuestions,
+      descriptionQuestions,
+      episodeQuestions,
+    ];
+
+    for (List<AnimeQuestion> group in groups) {
+      group.shuffle();
+    }
+
+    questions = [];
+    String lastType = '';
+
+    while (true) {
+      List<List<AnimeQuestion>> stillHaveQuestions = [];
+      for (List<AnimeQuestion> group in groups) {
+        if (group.isNotEmpty) {
+          stillHaveQuestions.add(group);
+        }
+      }
+
+      if (stillHaveQuestions.isEmpty) break;
+
+      List<List<AnimeQuestion>> differentType = [];
+      for (List<AnimeQuestion> group in stillHaveQuestions) {
+        if (group.last.type != lastType) {
+          differentType.add(group);
+        }
+      }
+
+      if (differentType.isNotEmpty) {
+        stillHaveQuestions = differentType;
+      }
+
+      stillHaveQuestions.shuffle();
+      AnimeQuestion picked = stillHaveQuestions[0].removeLast();
+      questions.add(picked);
+      lastType = picked.type;
+    }
+  }
+
+  void setUpQuestion() {
+    AnimeQuestion correctQuestion = questions[currentQuestion];
+
+    List<String> otherAnswers = [];
+
+    for (AnimeQuestion val in questions) {
+      if (val.group != correctQuestion.group) continue;
+      if (val.answer == correctQuestion.answer) continue;
+      if (otherAnswers.contains(val.answer)) continue;
+      otherAnswers.add(val.answer);
+    }
+
+    otherAnswers.shuffle();
+
+    optionList = [correctQuestion.answer, otherAnswers[0], otherAnswers[1]];
     optionList.shuffle();
 
-    indexOfCorrectAnime = optionList.indexOf(correctAnime);
+    indexOfCorrectAnime = optionList.indexOf(correctQuestion.answer);
 
     indexOfPickedAnswer = null;
     hasAnsweredThatQuestion = false;
@@ -80,7 +214,7 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
   void goToNextQuestion() {
     setState(() {
       if (currentQuestion == questions.length - 1) {
-        questions.shuffle();
+        buildQuestions();
         currentQuestion = 0;
       } else {
         currentQuestion = currentQuestion + 1;
@@ -92,9 +226,20 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
   @override
   Widget build(BuildContext context) {
 
-    AnimePart anime = questions[currentQuestion];
+    AnimeQuestion anime = questions[currentQuestion];
 
     String errorMessage = '';
+    String heading = 'Which anime is this?';
+    double headingSize = 32;
+
+    if (anime.type == 'character') {
+      heading = 'Who is this character?';
+    }
+
+    if (anime.type == 'episodes') {
+      heading = 'How many episodes does ${anime.animeTitle} have?';
+      headingSize = 24;
+    }
 
     space = [];
     int spaceFilled = (timeLeft / (totalSeconds / 10)).ceil();
@@ -116,10 +261,26 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
     }
 
     if (hasAnsweredThatQuestion) {
-      if (indexOfPickedAnswer == indexOfCorrectAnime) {
-        errorMessage = 'Correct!';
+      bool isCorrect = indexOfPickedAnswer == indexOfCorrectAnime;
+
+      if (anime.type == 'character') {
+        if (isCorrect) {
+          errorMessage = 'Correct... From ${anime.animeTitle}';
+        } else {
+          errorMessage = 'No. This is ${anime.answer} from ${anime.animeTitle}';
+        }
+      } else if (anime.type == 'episodes') {
+        if (isCorrect) {
+          errorMessage = 'Correct ${anime.answer} episodes';
+        } else {
+          errorMessage = 'No...${anime.animeTitle} has ${anime.answer} episodes';
+        }
       } else {
-        errorMessage = 'Not quite. The answer is ${anime.title}';
+        if (isCorrect) {
+          errorMessage = 'Correct!';
+        } else {
+          errorMessage = 'No...The answer is ${anime.answer}';
+        }
       }
     }
 
@@ -128,71 +289,96 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-              padding: EdgeInsets.fromLTRB(20, 8, 20, 24),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+            padding: EdgeInsets.fromLTRB(20, 8, 20, 24),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
 
-                children: [
+              children: [
+                Row(
+                  children: [
+                    IconButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      icon: Icon(Icons.arrow_back, color: Color(0xFF2B2430)),
+                    ),
+                    SizedBox(width: 6),
+                    Expanded(child: Row(children: space)),
+                  ],),
+
+                  SizedBox(height: 18,),
+
                   Row(
                     children: [
-                      IconButton(
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                        icon: Icon(Icons.arrow_back, color: Color(0xFF2B2430)),
+                      Container(
+                      width: 46,
+                      height: 46,
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Color(0xFFC23B3B),
+                        borderRadius: BorderRadius.circular(6),
                       ),
-                      SizedBox(width: 6),
-                      Expanded(child: Row(children: space)),
-                    ],),
 
-                    SizedBox(height: 18,),
-
-                    Row(
-                      children: [
-                        Container(
-                        width: 46,
-                        height: 46,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFC23B3B),
-                          borderRadius: BorderRadius.circular(6),
-                        ),
-
-                        child: Text(
-                          '漫',
-                          style: GoogleFonts.shipporiMincho(
-                            fontSize: 26,
-                            fontWeight: FontWeight.w800,
-                            color: Color(0xFFF8DDE2),
-                          )
+                      child: Text(
+                         '漫',
+                        style: GoogleFonts.shipporiMincho(
+                          fontSize: 26,
+                          fontWeight: FontWeight.w800,
+                          color: Color(0xFFF8DDE2),
                         )
-                        ),
-
-                        SizedBox(width: 12,),
-
-                        Text(
-                          'Score: $score',
-                          style: GoogleFonts.zenMaruGothic(
-                          fontSize: 17,
-                          color: Color(0xFF6B5F6E),
-                        ),
-                        )
-                      ]
-                    ),
-
-                    SizedBox(height: 18,),
-
-                    Text(
-                      'Which anime is this?',
-                      style: GoogleFonts.shipporiMincho(
-                        fontSize: 32,
-                        fontWeight: FontWeight.w800,
-                        color: Color(0xFF2B2430),
+                       )
                       ),
+
+                      SizedBox(width: 12,),
+
+                      Text(
+                        'Score: $score',
+                        style: GoogleFonts.zenMaruGothic(
+                        fontSize: 17,
+                        color: Color(0xFF6B5F6E),
+                      ),
+                      )
+                    ]
+                  ),
+
+                  SizedBox(height: 18,),
+
+                  Text(
+                    heading,
+                    style: GoogleFonts.shipporiMincho(
+                      fontSize: headingSize,
+                      fontWeight: FontWeight.w800,
+                      color: Color(0xFF2B2430),
                     ),
+                  ),
 
-                    SizedBox(height: 20,),
+                  SizedBox(height: 20,),
 
+                  if (anime.type == 'description')
+                    Container(
+                      width: double.infinity,
+                      padding: EdgeInsets.all(14),
+                      decoration: BoxDecoration(
+                        color: Color(0xFFFFF5F7),
+                        border: Border.all(color: Color(0xFF2B2430), width: 2),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Color(0xFF2B2430),
+                            offset: Offset(4, 4),
+                            blurRadius: 0,
+                          ),
+                        ]
+                      ),
+
+                      child: Text(
+                        anime.description,
+                        style: GoogleFonts.zenMaruGothic(
+                          fontSize: 16,
+                          color: Color(0xFF2B2430),
+                        ),
+                      ),
+                    )
+                  else
                     Container(
                       width: double.infinity,
                       height: 200,
@@ -240,23 +426,23 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
                     )
                     ),
 
-                    SizedBox(height: 26,),
+                  SizedBox(height: 26,),
 
-                    buildOptionButtons(0),
-                    buildOptionButtons(1),
-                    buildOptionButtons(2),
+                  buildOptionButtons(0),
+                  buildOptionButtons(1),
+                  buildOptionButtons(2),
 
-                    Text(
-                      errorMessage,
-                      style: GoogleFonts.zenMaruGothic(
-                      fontSize: 17,
-                      fontWeight: FontWeight.w700,
-                      color: Color(0xFF2B2430),
-                    ),
-                    )
-                ]
-              )
+                  Text(
+                    errorMessage,
+                    style: GoogleFonts.zenMaruGothic(
+                    fontSize: 17,
+                    fontWeight: FontWeight.w700,
+                    color: Color(0xFF2B2430),
+                  ),
+                  )
+              ]
             )
+          )
         )
       ),
     );
@@ -273,7 +459,12 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
       }
     });
 
-    Future.delayed(Duration(seconds: 1), () {
+    int waitSeconds = 1;
+    if (questions[currentQuestion].type == 'character') {
+      waitSeconds = 2;
+    }
+
+    Future.delayed(Duration(seconds: waitSeconds), () {
       if (mounted) {
         goToNextQuestion();
       }
@@ -281,7 +472,7 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
   }
 
   Widget buildOptionButtons(int index) {
-     AnimePart option = optionList[index];
+     String option = optionList[index];
 
      Color boxColor = Color(0xFFFFF5F7);
      Color textColor = Color(0xFF2B2430);
@@ -318,7 +509,7 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
         ),
 
         child: Text(
-          option.title,
+          option,
           style: GoogleFonts.zenMaruGothic(
             fontSize: 18,
             fontWeight: FontWeight.w700,

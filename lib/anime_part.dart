@@ -6,11 +6,15 @@ class AnimePart {
   String id;
   String title;
   String imageUrl;
+  String description;
+  int episodes;
 
   AnimePart({
     required this.id,
     required this.title,
     required this.imageUrl,
+    required this.description,
+    required this.episodes,
   });
 }
 
@@ -31,6 +35,8 @@ Future<void> loadAnimeParts() async {
         coverImage {
           large
         }
+        description(asHtml: false)
+        episodes
       }
     }
   }
@@ -57,9 +63,28 @@ Future<void> loadAnimeParts() async {
   List<dynamic> data = body['data']['Page']['media'];
 
   for (var val in data) {
-    String title = val['title']['romaji'];
+    String romajiTitle = val['title']['romaji'];
+    String title = romajiTitle;
     if (val['title']['english'] != null) {
       title = val['title']['english'];
+    }
+
+    String description = '';
+    if (val['description'] != null) {
+      description = val['description'];
+      description = description.replaceAll(RegExp(r'~!.*?!~', dotAll: true), '');
+      description = description.replaceAll(RegExp(r'<[^>]*>'), ' ');
+      description = description.replaceAll(RegExp(r'\(Source:[^)]*\)'), '');
+      description = description.replaceAll(RegExp(r'\s+'), ' ').trim();
+      description = description.replaceAll(romajiTitle, '_____');
+      description = description.replaceAll(title, '_____');
+      if (description.length > 250) {
+        description = '${description.substring(0, 250)}...';      }
+    }
+
+    int episodes = 0;
+    if (val['episodes'] != null) {
+      episodes = val['episodes'];
     }
 
     availableAnime.add(
@@ -67,6 +92,8 @@ Future<void> loadAnimeParts() async {
         id: val['id'].toString(),
         title: title,
         imageUrl: val['coverImage']['large'],
+        description: description,
+        episodes: episodes,
       ),
     );
   }
