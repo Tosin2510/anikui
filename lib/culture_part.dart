@@ -12,6 +12,7 @@ class CulturePart {
     required this.wrongAnswer2,
     required this.fact,
   });
+}
 
   List<CulturePart> availableCulture = [
 
@@ -416,4 +417,3 @@ class CulturePart {
   ),
 
   ];
-}
