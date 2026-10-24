@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'package:anikui/page_background.dart';
 import 'package:anikui/anime_character_part.dart';
 import 'package:anikui/anime_part.dart';
 import 'package:flutter/material.dart';
@@ -286,7 +286,9 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
 
     return Scaffold(
       backgroundColor: Color(0xFFF8DDE2),
-      body: SafeArea(
+        body: PageBackground(
+        kanji: '漫',
+        child: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.fromLTRB(20, 8, 20, 24),
@@ -443,6 +445,7 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
               ]
             )
           )
+        )
         )
       ),
     );

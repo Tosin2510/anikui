@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'package:anikui/page_background.dart';
 import 'package:anikui/food_part.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -133,7 +133,9 @@ class _FoodQuizState extends State<FoodQuiz> {
 
     return Scaffold(
       backgroundColor: Color(0xFFF8DDE2),
-      body: SafeArea(
+      body: PageBackground(
+        kanji: '食',
+        child: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.fromLTRB(20, 8, 20, 24),
@@ -216,6 +218,7 @@ class _FoodQuizState extends State<FoodQuiz> {
                 )
             )
           )
+        )
         )
       );
   }

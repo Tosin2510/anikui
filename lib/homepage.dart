@@ -48,9 +48,37 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+        return Scaffold(
       backgroundColor: Color(0xFFF8DDE2),
-      body: SafeArea(
+      body: Stack(
+        children: [
+          Positioned(
+            top: -90,
+            right: -90,
+            child: Container(
+              width: 280,
+              height: 280,
+              decoration: BoxDecoration(
+                color: Color(0xFFEFC4CD),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ),
+
+          Positioned(
+            bottom: -20,
+            left: -10,
+            child: Text(
+              '日本',
+              style: GoogleFonts.shipporiMincho(
+                fontSize: 180,
+                fontWeight: FontWeight.w800,
+                color: Color(0xFFEFC4CD),
+              ),
+            ),
+          ),
+
+          SafeArea(
         child: SingleChildScrollView(
           child: SingleChildScrollView(
             child: Padding(
@@ -86,6 +114,8 @@ class _HomePageState extends State<HomePage> {
           )
           )
         )
+      )
+        ]
       )
     );
   }
