@@ -3,6 +3,7 @@ import 'package:anikui/page_background.dart';
 import 'package:anikui/words.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:anikui/result_page.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -82,18 +83,27 @@ class _QuizPageState extends State<QuizPage> {
       hasAnsweredThatQuestion = false;
     }
 
-    void startTimer() {
-      timer = Timer.periodic(Duration(milliseconds: 100), (time) {
-        setState(() {
-            timeLeft = timeLeft - 0.1;
-          if (timeLeft <= 0) {
-            timeLeft = 0;
-            time.cancel();
-            Navigator.pop(context);
-          }
-        });
-      });
-    }
+  void startTimer() {
+  timer = Timer.periodic(Duration(milliseconds: 100), (time) {
+    setState(() {
+      timeLeft = timeLeft - 0.1;
+      if (timeLeft <= 0) {
+        timeLeft = 0;
+        time.cancel();
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) {
+            return ResultPage(
+              score: score,
+              sectionName: 'Word',
+              playAgainPage: QuizPage(),
+            );
+          }),
+        );
+      }
+    });
+  });
+}
 
     void pickAnswerToQuestion(int val) {
       if (hasAnsweredThatQuestion) return;
@@ -114,7 +124,12 @@ class _QuizPageState extends State<QuizPage> {
 
     void goToNextQuestion() {
       setState(() {
-        currentQuestion = currentQuestion + 1;
+        if (currentQuestion == questions.length - 1) {
+          questions.shuffle();
+          currentQuestion = 0;
+        } else {
+          currentQuestion = currentQuestion + 1;
+        }
         setUpQuestion();
       });
     }

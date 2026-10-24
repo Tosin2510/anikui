@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:anikui/page_background.dart';
 import 'package:anikui/food_part.dart';
 import 'package:flutter/material.dart';
+import 'package:anikui/result_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FoodQuiz extends StatefulWidget {
@@ -56,17 +57,26 @@ class _FoodQuizState extends State<FoodQuiz> {
   }
 
   void startTimer() {
-     timer = Timer.periodic(Duration(milliseconds: 100), (time) {
-      setState(() {
-        timeLeft = timeLeft - 0.1;
-        if (timeLeft <= 0) {
-          timeLeft = 0;
-          time.cancel();
-          Navigator.pop(context);
-        }
-      });
+  timer = Timer.periodic(Duration(milliseconds: 100), (time) {
+    setState(() {
+      timeLeft = timeLeft - 0.1;
+      if (timeLeft <= 0) {
+        timeLeft = 0;
+        time.cancel();
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) {
+            return ResultPage(
+              score: score,
+              sectionName: 'Food',
+              playAgainPage: FoodQuiz(),
+            );
+          }),
+        );
+      }
     });
-  }
+  });
+}
 
   void pickAnswerToQuestion(int value) {
     if (hasAnsweredThatQuestion) return;

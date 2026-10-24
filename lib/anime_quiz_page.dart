@@ -4,6 +4,7 @@ import 'package:anikui/anime_character_part.dart';
 import 'package:anikui/anime_part.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:anikui/result_page.dart';
 
 class AnimeQuestion {
   String type;
@@ -199,17 +200,26 @@ class _AnimeQuizPageState extends State<AnimeQuizPage> {
   }
 
   void startTimer() {
-    timer = Timer.periodic(Duration(milliseconds: 100), (time) {
-      setState(() {
-        timeLeft = timeLeft - 0.1;
-        if (timeLeft <= 0) {
-          timeLeft = 0;
-          time.cancel();
-          Navigator.pop(context);
-        }
-      });
+  timer = Timer.periodic(Duration(milliseconds: 100), (time) {
+    setState(() {
+      timeLeft = timeLeft - 0.1;
+      if (timeLeft <= 0) {
+        timeLeft = 0;
+        time.cancel();
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) {
+            return ResultPage(
+              score: score,
+              sectionName: 'Anime',
+              playAgainPage: AnimeQuizPage(),
+            );
+          }),
+        );
+      }
     });
-  }
+  });
+}
 
   void goToNextQuestion() {
     setState(() {

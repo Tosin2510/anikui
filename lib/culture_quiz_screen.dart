@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:anikui/page_background.dart';
 import 'package:anikui/culture_part.dart';
 import 'package:flutter/material.dart';
+import 'package:anikui/result_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CultureQuizPage extends StatefulWidget {
@@ -55,17 +56,26 @@ class _CultureQuizPageState extends State<CultureQuizPage> {
   }
 
   void startTimer() {
-    timer = Timer.periodic(Duration(milliseconds: 100), (time) {
-      setState(() {
-        timeLeft = timeLeft - 0.1;
-        if (timeLeft <= 0) {
-          timeLeft = 0;
-          time.cancel();
-          Navigator.pop(context);
-        }
-      });
+  timer = Timer.periodic(Duration(milliseconds: 100), (time) {
+    setState(() {
+      timeLeft = timeLeft - 0.1;
+      if (timeLeft <= 0) {
+        timeLeft = 0;
+        time.cancel();
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) {
+            return ResultPage(
+              score: score,
+              sectionName: 'Culture',
+              playAgainPage: CultureQuizPage(),
+            );
+          }),
+        );
+      }
     });
-  }
+  });
+}
 
   void pickAnswerToQuestion(int val) {
     if (hasAnsweredThatQuestion) return;
