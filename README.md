@@ -6,8 +6,12 @@ I built it because I just felt like...
 
 ## Download
 
-Grab the APK from the [ReleasePage]([https://github.com/Tosin2510/anikui/releases/tag/v1.0.0]), and install it on your Android phone. 
-Not sure which one to pick? download `app-arm64-v8a-release.apk`, it works on almost all modern phones. Also, allow your phone to install from unknown sources.
+Grab the APK from the [Release Page](https://github.com/Tosin2510/anikui/releases/tag/v1.0.0) and install it on your Android phone. 
+
+**Not sure which APK to pick?** 
+Download **`app-arm64-v8a-release.apk`**—it works on almost all modern Android phones. 
+
+*Note: Make sure to allow installation from unknown sources in your Android device settings when your phone pops it up.*
 
 ## How it works
 
@@ -49,6 +53,7 @@ You need the Flutter SDK.
 - The anime section needs internet.
 - The vocabulary question images are AI generated, so for abstract words (or words that cannot exactly be pictured), they may feel off.
 - Users can only see the score for the quiz they just finished playing.
+- Only works on android devices.
 
 ## License
 
